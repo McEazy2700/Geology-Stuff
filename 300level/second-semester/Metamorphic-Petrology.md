@@ -45,6 +45,6 @@ Quartz has different `Polymorphs` that are stable between 0°C and 1800°C. The 
 > **Polymorphism**: literally means _"many forms"_
 > 
 > In crystallography or mineralogy, it generally means that one mineral can exist in various crystal forms under
-    certain conditions (usually temperature and pressure). These forms are called `Polymorphs`.
-    ![The Quartz group](https://skyfallmeteorites.com/wp-content/uploads/images/glossary/SilicaPhase.jpg)
+    certain conditions (usually temperature and pressure). These forms are called `Polymorphs`.  
+    ![The Quartz group](https://skyfallmeteorites.com/wp-content/uploads/images/glossary/SilicaPhase.jpg)  
     ![A more detailed Description of Polymorphism in Quartz](https://www.researchgate.net/publication/250615481/figure/fig1/AS:646473586855936@1531142722305/Diagram-of-the-phase-transition-paths-between-silica-polymorphs-at-1-atmosphere.png)

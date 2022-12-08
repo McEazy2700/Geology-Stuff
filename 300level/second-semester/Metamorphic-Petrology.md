@@ -7,7 +7,7 @@ New metamorphic rocks can be formed from old ones as temperature and pressure in
 * Metamorphic rocks form under temperatures that are higher than those experienced by
     sedimentary rocks, but less than those that cause igneous rocks to melt.
 * Given that pressure and water content affect the temperature at which rocks melt, 
-    metamorphism can occur at higher temperatures for some kind of rocks, whereas others
+    metamorphism can occur at higher temperatures for some kinds of rocks, whereas others
     begin to melt under these same conditions.
 * Metamorphic rocks can have very different mineral assemblages and textures than their 
     parent rock, but their overall chemical composition doesn't change very much.

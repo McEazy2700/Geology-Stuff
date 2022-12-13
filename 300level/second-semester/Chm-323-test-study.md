@@ -4,6 +4,7 @@
 - [Spectroscopy](#spectroscopy)
   - [UV Spectroscopy](#uv-spectroscopy)
     - [How UV-Spectroscopy works](#how-uv-spectroscopy-works)
+      - [Beer-Lambert Law](#beer-lambert-law)
     - [Pros and Cons of UV-Spectroscopy](#pros-and-cons-of-uv-spectroscopy)
       - [Cons](#cons)
   - [NMR Spectroscopy](#nmr-spectroscopy)
@@ -14,7 +15,9 @@
     - [Shielding](#shielding)
     - [Deshielding](#deshielding)
     - [Causes of Shielding & Deshielding](#causes-of-shielding-deshielding)
+    - [Coupling in NMR](#coupling-in-nmr)
     - [TMS](#tms)
+  - [Mass Spectroscopy](#mass-spectroscopy)
 <!--toc:end-->
 
 Spectroscopy is the study of the interaction between light and matter. It involves using tools like a spectrometer,
@@ -127,4 +130,4 @@ Equivalent protons do not show coupling with each other. If the neighbors are no
 TMS or tetramethylsilane is a commonly used reference substance in NMR spectroscopy
 
 ## Mass Spectroscopy
-Mass sepctrometry or mass spectroscopy is an analytical technique that is used to measure the 
+Mass spectrometry or mass spectroscopy is an analytical technique that is used to measure the 

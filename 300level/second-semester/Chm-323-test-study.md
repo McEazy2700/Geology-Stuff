@@ -66,7 +66,9 @@ to get the specific composition of a molecule
 ## NMR Spectroscopy
 NMR means Nuclear Magnetic Resonance. It is used to:
 * Determine the structure of molecules
-Analyze the purity of chemicals
+* Analyze the purity of chemicals
+* Study the dynamics of molecules
+* Detecting and identifying specific molecules in complex mixtures
 
 ### Principles of NMR
 When a nucleus that possesses a magnetic moment(nuclei with odd mass or odd atomic numbers such as hydrogen $^1$H, or carbon $^{13}$C

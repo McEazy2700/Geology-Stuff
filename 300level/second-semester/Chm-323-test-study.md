@@ -130,4 +130,4 @@ Equivalent protons do not show coupling with each other. If the neighbors are no
 TMS or tetramethylsilane is a commonly used reference substance in NMR spectroscopy
 
 ## Mass Spectroscopy
-Mass spectrometry or mass spectroscopy is an analytical technique that is used to measure the 
+Mass spectrometry or mass spectroscopy is an analytical technique that is used to measure the mass-to-charge ratio of a sample.

@@ -131,4 +131,5 @@ TMS or tetramethylsilane is a commonly used reference substance in NMR spectrosc
 
 ## Mass Spectroscopy
 Mass spectrometry or mass spectroscopy is an analytical technique that is used to measure the mass-to-charge ratio of a sample.
-First, the sample has to be vapourised and ionized into gaseous form then it can be inserted into the analyser which measures the mass to change ratio.
+First, the sample has to be vapourised and ionized into gaseous form then it can be inserted into the analyzer which measures the
+mass-to-change ratio.

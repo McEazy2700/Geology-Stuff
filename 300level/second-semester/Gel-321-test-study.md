@@ -10,6 +10,8 @@
       - [Temperature](#temperature)
       - [Pressure](#pressure)
       - [Fluids](#fluids)
+      - [Time](#time)
+  - [Metamorphic Grade](#metamorphic-grade)
 <!--toc:end-->
 
 ## Metamorphism and Metamorphic Rocks
@@ -70,3 +72,12 @@ Perhaps more importantly, fluids can also serve to reduce the upper limit of min
 #### Time
 Time is a very important factor in metamorphism as metamorphism is a very slow process, the more time parent rocks spend
 under metamorphic conditions, the more complete their metamorphism is.
+
+## Metamorphic Grade
+Metamorphic grade refers to the amount or degree of metamorphism a rock undergoes. It ranges from **log grade** (little
+metamorphism) to **high grade** (high metamorphism).   
+Low-grade metamorphism begins at temperatures just above sedimentary rock conditions. the sequence **slate -> phyllite ->
+schist -> gneiss** represents increasing metamorphic grade.
+We use **index minerals** that form at specific temperatures and pressures to identify metamorphic grades. They also provide
+insight into the rock's protolith and the metamorphic conditions that created it. **chlorite -> muscovite -> biotite -> garnet
+-> saturolite** are index minerals.

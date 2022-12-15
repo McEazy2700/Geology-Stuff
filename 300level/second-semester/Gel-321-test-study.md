@@ -80,4 +80,4 @@ Low-grade metamorphism begins at temperatures just above sedimentary rock condit
 schist -> gneiss** represents increasing metamorphic grade.
 We use **index minerals** that form at specific temperatures and pressures to identify metamorphic grades. They also provide
 insight into the rock's protolith and the metamorphic conditions that created it. **chlorite -> muscovite -> biotite -> garnet
--> saturolite** are index minerals.
+-> staurolite** are index minerals representing a respective sequence of low to high-grade rock.

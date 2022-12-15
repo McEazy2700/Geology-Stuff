@@ -8,6 +8,9 @@
     - [2. Give two definitions of amorphous materials.](#2-give-two-definitions-of-amorphous-materials)
     - [3. Give three definitions of a lattice.](#3-give-three-definitions-of-a-lattice)
     - [4. Give two definitions of Bravais lattice.](#4-give-two-definitions-of-bravais-lattice)
+    - [5. What is meant by basis vector.](#5-what-is-meant-by-basis-vector)
+    - [10. Calculate the atomic packing fraction of](#10-calculate-the-atomic-packing-fraction-of)
+      - [Hexagonal-Closed Packed structure](#hexagonal-closed-packed-structure)
 <!--toc:end-->
 
 ## Questions
@@ -36,6 +39,8 @@
 
 ## Answers
 ### 1. Give all possible definitions of Crystal that you know.
+  * A crystal or crystalline solid is a solid material whose constituents (such as atoms, molecules, or ions)
+    are arranged in a highly ordered microscopic structure, forming a crystal lattice that extends in all directions.
   * A crystal is a solid material in which atoms, ions and molecules are arranged in regularly repeating pattern
      that extends in all three spatial dimensions,
   * A crystal is any solid crystalline substance, and thus has a regular and ordered internal arrangement of
@@ -47,6 +52,7 @@
 
 ### 2. Give two definitions of amorphous materials.
   * An amorphous material is a solid material that lacks long-range order in its atomic structure.
+  * A solid in which the constituent particles do possess regular three-dimensional arrangement.
   * An amorphous material can also be defined as a solid that has a somewhat random internal arrangement of atoms,
      ions and molecules, which gives them a glassy appearance.
   Examples of amorphous solids include glass, plastics, and many types of rubber.  
@@ -66,6 +72,21 @@
    _**Reference** [byjus.com](https://byjus.com/chemistry/bravais-lattice/)_
   * A Bravais Lattice is the basic building block from which all crystals can be constructed. 
   _**Reference** [libretexts.org](https://chem.libretexts.org/Bookshelves/Analytical_Chemistry/Physical_Methods_in_Chemistry_and_Nano_Science_(Barron)/07%3A_Molecular_and_Solid_State_Structure/7.01%3A_Crystal_Structure)_
+
+### 5. Define what is meant by basic/basis cell.
+A basic cell or basis cell is the smallest unit cell that can be used to construct the entire crystal lattice without
+gaps or overlaps. It is a three-dimensional structure that is repeated in a crystal lattice to
+create the overall crystal structure. The basic cell is characterized by the lengths of its sides and the angles between
+them, and it is used to define the fundamental geometry of the crystal lattice. The arrangement of atoms within the basic
+cell determines the overall properties of the crystal, such as its hardness, electrical conductivity, and thermal conductivity.
+
+### 6. List two definitions of the primitive unit cell.
+  * A primitive unit cell is a basic building block of a crystal lattice. It is the smallest unit cell that can be used
+    to construct the entire crystal lattice without gaps or overlaps.
+  * A primitive unit cell is a three-dimensional structure that is repeated in a crystal lattice to create the overall
+    crystal structure. It is the smallest unit cell that can be used to construct the entire crystal lattice without
+    gaps or overlaps, and it is characterized by the lengths of its sides and the angles between them.
+  _**Rerfrence** [Open AI Chat GPT-3](https://chat.openai.com/chat)_
 
 ### 10. Calculate the atomic packing fraction of
   * Hexagonal Crystal lattice

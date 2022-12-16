@@ -11,7 +11,9 @@
       - [Pressure](#pressure)
       - [Fluids](#fluids)
       - [Time](#time)
+    - [Classification of Metamorphic Rock](#classification-of-metamorphic-rock)
   - [Metamorphic Grade](#metamorphic-grade)
+  - [Metamorphic Facies](#metamorphic-facies)
 <!--toc:end-->
 
 ## Metamorphism and Metamorphic Rocks
@@ -70,14 +72,25 @@ to another.
 Perhaps more importantly, fluids can also serve to reduce the upper limit of mineral stability.
 
 #### Time
-Time is a very important factor in metamorphism as metamorphism is a very slow process, the more time parent rocks spend
-under metamorphic conditions, the more complete their metamorphism is.
+This is a very important factor in metamorphism as metamorphism is a very slow process, the more time parent rocks spend
+under metamorphic conditions, the more complete their metamorphism is.  
+**Note**:** some types of metamorphic rocks such as quartzite and marble which also form in direct pressure zones
+do not necessarily exhibit foliation, because their minerals do not tend to show alignment.
+
+### Classification of Metamorphic Rock
+So there are two main types of metamorphic rocks, those that are foliated that formed in environments with either directed
+pressure or shear stress and those that are non-foliated because they have formed in an environment without much direct
+pressure, or relatively near the surface where there's very little pressure.  
+When rocks are squeezed under direct pressure, the pressure caused the rock to deform and enongate in a direction perpendicular
+to the direction of the stress. This contributes to the formation of foliation.
 
 ## Metamorphic Grade
-Metamorphic grade refers to the amount or degree of metamorphism a rock undergoes. It ranges from **log grade** (little
+Refers to the amount or degree of metamorphism a rock undergoes. It ranges from **log grade** (little
 metamorphism) to **high grade** (high metamorphism).   
-Low-grade metamorphism begins at temperatures just above sedimentary rock conditions. the sequence **slate -> phyllite ->
+Low-grade metamorphism begins at temperatures just above sedimentary rock conditions. The sequence **slate -> phyllite ->
 schist -> gneiss** represents increasing metamorphic grade.
 We use **index minerals** that form at specific temperatures and pressures to identify metamorphic grades. They also provide
-insight into the rock's protolith and the metamorphic conditions that created it. **chlorite -> muscovite -> biotite -> garnet
--> staurolite** are index minerals representing a respective sequence of low to high-grade rock.
+insight into the rock's protolith and the metamorphic conditions that created it. **Chlorite → Muscovite → biotite → garnet
+→ staurolite** are index minerals representing a respective sequence of low to high-grade rock.
+
+## Metamorphic Facies

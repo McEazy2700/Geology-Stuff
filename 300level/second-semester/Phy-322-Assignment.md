@@ -1,5 +1,6 @@
 # Phy-322 Assignment
 
+
 <!--toc:start-->
 - [Phy-322 Assignment](#phy-322-assignment)
   - [Questions](#questions)
@@ -8,9 +9,13 @@
     - [2. Give two definitions of amorphous materials.](#2-give-two-definitions-of-amorphous-materials)
     - [3. Give three definitions of a lattice.](#3-give-three-definitions-of-a-lattice)
     - [4. Give two definitions of Bravais lattice.](#4-give-two-definitions-of-bravais-lattice)
-    - [5. What is meant by basis vector.](#5-what-is-meant-by-basis-vector)
+    - [5. Define what is meant by basic/basis cell.](#5-define-what-is-meant-by-basicbasis-cell)
+    - [6. List two definitions of the primitive unit cell.](#6-list-two-definitions-of-the-primitive-unit-cell)
+    - [7. Draw the basic vector that represents the primitive unit cell in the following 3D order](#7-draw-the-basic-vector-that-represents-the-primitive-unit-cell-in-the-following-3d-order)
+    - [8. Give full atomic coordinates of NaCl structure.](#8-give-full-atomic-coordinates-of-nacl-structure)
     - [10. Calculate the atomic packing fraction of](#10-calculate-the-atomic-packing-fraction-of)
       - [Hexagonal-Closed Packed structure](#hexagonal-closed-packed-structure)
+      - [Packing Fraction](#packing-fraction)
 <!--toc:end-->
 
 ## Questions
@@ -52,7 +57,7 @@
 
 ### 2. Give two definitions of amorphous materials.
   * An amorphous material is a solid material that lacks long-range order in its atomic structure.
-  * A solid in which the constituent particles do possess regular three-dimensional arrangement.
+  * A solid in which the constituent particles do possess a regular three-dimensional arrangement.
   * An amorphous material can also be defined as a solid that has a somewhat random internal arrangement of atoms,
      ions and molecules, which gives them a glassy appearance.
   Examples of amorphous solids include glass, plastics, and many types of rubber.  
@@ -88,11 +93,52 @@ cell determines the overall properties of the crystal, such as its hardness, ele
     gaps or overlaps, and it is characterized by the lengths of its sides and the angles between them.
   _**Rerfrence** [Open AI Chat GPT-3](https://chat.openai.com/chat)_
 
+### 7. Draw the basic vector that represents the primitive unit cell in the following 3D order
+* Body-Centered Cubic (BCC)  
+![Body-Centered Cubic lattice](./images/403px-Lattice_body_centered_cubic.png)  
+
+* Face-Centered Cubic (FCC)  
+![Face-Centered Cubic lattice](./images/399px-Lattice_face_centered_cubic.png)
+
+* Hexagonal-Closed Packed (HCP)  
+![Hexagonal-Closed Packed lattice(./images/Hexagonal,_close_packed_crystal_lattice.png)
+
+
+### 8. Give full atomic coordinates of NaCl structure.
+Sodium chloride is an ionic compound with the chemical formula NaCl, representing a 1:1 ratio of Na and Cl$_2$ with molar masses
+of 22.99 and 35.45 gmol$^{-1}$ respectively.
+![Sodium Chloride](./images/NaCl-coordinates.png)
+* NaCl has a Cubic-Closed Packed (CCP) arrangement.
+* The structure of sodium chloride consists of eight ions in a unit cell, four are Na$^+$ ions and the other four are Cl$^-$  
+In this structure, each corner of the ion is shared between eight unit cells, each ion at the faces of each cell is shared between
+two cells, each ion on an edge is shared between four cells, while the ion inside the cell belongs entirely to that unit cell.
+So the position of the ions is the following(with Na at the center of the axis):
+* **Na$^+$**   (0 0 0) ($\frac{1}{2}$ $\frac{1}{2}$ 0) ($\frac{1}{2}$ 0 $\frac{1}{2}$) (0 $\frac{1}{2}$ $\frac{1}{2}$)
+* **Cl$^-$**   (0 $\frac{1}{2}$ 0) ($\frac{1}{2}$ 0 0) (0 0 $\frac{1}{2}$) ($\frac{1}{2}$ $\frac{1}{2}$ $\frac{1}{2}$)
+
 ### 10. Calculate the atomic packing fraction of
   * Hexagonal Crystal lattice
   * Hexagonal-Closed Packed structure
 
 #### Hexagonal-Closed Packed structure
+Consider the diagram bellow  
+![Hexagonal-Closed Packed lattice](./images/Hexagonal,_close_packed_crystal_lattice.png)  
+From the diagram above we notice that each atom at the edge of the hexagon is shared between six cells
+![HCP Diagram showing sharing of edge atoms](./images/Lattice-sharing-of-atom-HCP.png)  
+* 3 cells at the top
+* 3 cells at the bottom  
+$-$ each of the 12 edge atoms contributes a total of $\frac{1}{6}$ atoms to the cell  
+$$\frac{1}{6} \times 12 = 2\ (for\ the\ edge\ atoms)$$
+$-$ we can also see that each of the face atoms is being shared between two adjacent unit cells, thus the two face atoms
+(at the top and the bottom), contribute a total of $\frac{1}{2}$ atoms.
+$$\frac{1}{2} \times 2 = 1\ (for\ the\ face\ atoms)$$
+$-$ we also see that the three inner atoms are not shared with any other unit cell and thus contribute a full atom each to the
+unit cell
+$$1 \times 3 = 3\ (for\ the\ inner\ atoms)$$
+this means the effective number of atom in HCP is 
+$$2 + 1 + 3 = 6atoms$$
+
+#### Packing Fraction
   the packing fraction of a Hexagonal-Closed Packed structure is given by  
   $$ PF = \frac{volume\ occupied\ by\ the\ atoms}{volume\ of\ the\ unit\ cell}$$
   $$ volume\ occupied\ by\ the\ atoms = z \times volume of an atom$$

@@ -12,9 +12,10 @@
       - [Fluids](#fluids)
       - [Time](#time)
     - [Classification of Metamorphic Rock](#classification-of-metamorphic-rock)
-      - [Types of Foliated Metamorphic Rocks](#types-of-foliated-metamorphic-rocks)
-      - [Types of Non-Foliated Metamorphic Rocks](#types-of-non-foliated-metamorphic-rocks)
-      - [Migmatite both Metamorphic and Igneous](#migmatite-both-metamorphic-and-igneous)
+      - [Classification Based on Texture and Structure](#classification-based-on-texture-and-structure)
+        - [Types of Foliated Metamorphic Rocks](#types-of-foliated-metamorphic-rocks)
+        - [Types of Non-Foliated Metamorphic Rocks](#types-of-non-foliated-metamorphic-rocks)
+        - [Migmatite both Metamorphic and Igneous](#migmatite-both-metamorphic-and-igneous)
   - [Metamorphic Grade](#metamorphic-grade)
   - [Metamorphic Facies](#metamorphic-facies)
 <!--toc:end-->
@@ -81,16 +82,18 @@ under metamorphic conditions, the more complete their metamorphism is.
 do not necessarily exhibit foliation, because their minerals do not tend to show alignment.
 
 ### Classification of Metamorphic Rock
-Metamorphic rocks can be broadly classified into two types, foliated and non-foliated. Non-foliated metamorphic rocks are
-formed when the pressure during formation is uniform or low (near the surface). They can also form when the parent rock consists
-of blocky minerals such as Quartz and Calcite in which individual crystals do not align because they are no longer in
-one direction than the other.
+Metamorphic rocks can be classified based on a variety of criteria
+#### Classification Based on Texture and Structure
+Based on Texture and Structure Metamorphic rocks can be broadly classified into two types, foliated and non-foliated.
+Non-foliated metamorphic rocks are formed when the pressure during formation is uniform or low (near the surface). They
+can also form when the parent rock consists of blocky minerals such as Quartz and Calcite in which individual crystals
+do not align because they are no longer in one direction than the other.
 However, this distinction breaks down in areas of intense deformation where even minerals like Quartz can be squeezed into a
 long stringer, much like squeezing toothpaste out of a tube.  
 Foliated metamorphic rocks are those formed under high differential pressure (when pressure is higher in one direction than another)
 causing crystals to squeeze and grow in a direction perpendicular to the higher stress.
 
-#### Types of Foliated Metamorphic Rocks
+##### Types of Foliated Metamorphic Rocks
 Four common types of metamorphic rocks, listed in order of metamorphic grade are slate → phyllite → slate → gneiss
 * Slate: Formed from the low-grade metamorphism of shale.
 * Phyllite: Is similar to slate but has typically been heated to a higher temperature causing the mica to grow larger and
@@ -102,7 +105,7 @@ Four common types of metamorphic rocks, listed in order of metamorphic grade are
   Gneiss features minerals that have separated into bands of different colors. Gneiss usually contains little or no mica
   because they form at temperatures higher than those under which mica is stable.
 
-#### Types of Non-Foliated Metamorphic Rocks
+##### Types of Non-Foliated Metamorphic Rocks
 These are metamorphic rocks formed under low-pressure conditions or the effects of confining pressure (equal in all directions.
 They are usually formed near the surface and are products of contact metamorphism. The following are examples of non-foliated
 metamorphic rock in order of increasing grade. Marble → Quartzite → Hornfels
@@ -113,7 +116,7 @@ metamorphic rock in order of increasing grade. Marble → Quartzite → Hornfels
   have gneiss-like bands but these actually reflect alternating sandstone and shale that were in the protolith and are not related
   to the alignment of crystals.
 
-#### Migmatite both Metamorphic and Igneous
+##### Migmatite both Metamorphic and Igneous
 If a metamorphic-rock is heated enough, it can begin to undergo partial melting in the same way that igneous rocks do. The more
 felsic minerals (Feldspar and Quartz) will melt, while the more mafic minerals (Biotite and Hornblende) do not. When the melt
 crystallizes again, the result is a light-colored igneous rock interpresed with a dark-colored metamorphic rock. This mixed rock
@@ -129,3 +132,7 @@ insight into the rock's protolith and the metamorphic conditions that created it
 → staurolite** are all index minerals representing a respective sequence of low to high-grade rock.
 
 ## Metamorphic Facies
+A Metamorphic Facie is a group of metamorphic rocks that formed under the same temperature and pressure conditions, but have
+different protoliths.
+> A Metamorphic Facie can be defined as an assemblage of minerals which were formed together under the same metamorphic conditions
+of temperature and pressure but have different protoliths.

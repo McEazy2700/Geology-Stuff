@@ -12,6 +12,9 @@
       - [Fluids](#fluids)
       - [Time](#time)
     - [Classification of Metamorphic Rock](#classification-of-metamorphic-rock)
+      - [Types of Foliated Metamorphic Rocks](#types-of-foliated-metamorphic-rocks)
+      - [Types of Non-Foliated Metamorphic Rocks](#types-of-non-foliated-metamorphic-rocks)
+      - [Migmatite both Metamorphic and Igneous](#migmatite-both-metamorphic-and-igneous)
   - [Metamorphic Grade](#metamorphic-grade)
   - [Metamorphic Facies](#metamorphic-facies)
 <!--toc:end-->
@@ -58,8 +61,8 @@ increases, so does the upper limit of stability. Another important effect of pre
 texture. When **differential stress** is applied to a rock, it's elongated in the areas with
 less stress, while shear stress leads to diagonal stretching in the rock, while **shear stress** leads to diagonal
 stretching in the rock. However, in both cases, rocks become foliated.
-> Differential strees: Stress applied at right angle in all directions, but with one direction experiencing more
-  pressue than others.  
+> Differential street: Stress applied at right angle in all directions, but with one direction experiencing more
+  pressure than others.  
 > Shear stress: stress applied at an angle.  
 > Foliation: alignment of minerals in a particular direction in a rock.
 
@@ -78,19 +81,51 @@ under metamorphic conditions, the more complete their metamorphism is.
 do not necessarily exhibit foliation, because their minerals do not tend to show alignment.
 
 ### Classification of Metamorphic Rock
-So there are two main types of metamorphic rocks, those that are foliated that formed in environments with either directed
-pressure or shear stress and those that are non-foliated because they have formed in an environment without much direct
-pressure, or relatively near the surface where there's very little pressure.  
-When rocks are squeezed under direct pressure, the pressure caused the rock to deform and enongate in a direction perpendicular
-to the direction of the stress. This contributes to the formation of foliation.
+Metamorphic rocks can be broadly classified into two types, foliated and non-foliated. Non-foliated metamorphic rocks are
+formed when the pressure during formation is uniform or low (near the surface). They can also form when the parent rock consists
+of blocky minerals such as Quartz and Calcite in which individual crystals do not align because they are no longer in
+one direction than the other.
+However, this distinction breaks down in areas of intense deformation where even minerals like Quartz can be squeezed into a
+long stringer, much like squeezing toothpaste out of a tube.  
+Foliated metamorphic rocks are those formed under high differential pressure (when pressure is higher in one direction than another)
+causing crystals to squeeze and grow in a direction perpendicular to the higher stress.
+
+#### Types of Foliated Metamorphic Rocks
+Four common types of metamorphic rocks, listed in order of metamorphic grade are slate → phyllite → slate → gneiss
+* Slate: Formed from the low-grade metamorphism of shale.
+* Phyllite: Is similar to slate but has typically been heated to a higher temperature causing the mica to grow larger and
+  leading to a satiny sheen on the surface
+* Schist: Forms at higher temperatures and pressures, and thus exhibits mica crystals that are large enough to see without
+  magnification. Individual crystal faces may flash when the sample is turned, causing the rock to appear shiny. Other
+  minerals like garnet might also be present.
+* Gneiss: Forms at the highest temperatures and pressures, and has crystals large enough to see with the unaided eyes.
+  Gneiss features minerals that have separated into bands of different colors. Gneiss usually contains little or no mica
+  because they form at temperatures higher than those under which mica is stable.
+
+#### Types of Non-Foliated Metamorphic Rocks
+These are metamorphic rocks formed under low-pressure conditions or the effects of confining pressure (equal in all directions.
+They are usually formed near the surface and are products of contact metamorphism. The following are examples of non-foliated
+metamorphic rock in order of increasing grade. Marble → Quartzite → Hornfels
+* Marble: Formed from the metamorphism of limestone. Forms pure white crystals if the parent limestone was pure, if not it could
+  end up "marbled" in appearance.
+* Quartzite: Metamorphosed sandstone. Is dominated by Quartz but may contain clay minerals.
+* Hornfels: Formed from the metamorphism of fine-grained rocks like Murdock and volcanic rocks. The Hornfels usually appear to
+  have gneiss-like bands but these actually reflect alternating sandstone and shale that were in the protolith and are not related
+  to the alignment of crystals.
+
+#### Migmatite both Metamorphic and Igneous
+If a metamorphic-rock is heated enough, it can begin to undergo partial melting in the same way that igneous rocks do. The more
+felsic minerals (Feldspar and Quartz) will melt, while the more mafic minerals (Biotite and Hornblende) do not. When the melt
+crystallizes again, the result is a light-colored igneous rock interpresed with a dark-colored metamorphic rock. This mixed rock
+is called **Migmatite**.
 
 ## Metamorphic Grade
 Refers to the amount or degree of metamorphism a rock undergoes. It ranges from **log grade** (little
 metamorphism) to **high grade** (high metamorphism).   
-Low-grade metamorphism begins at temperatures just above sedimentary rock conditions. The sequence **slate -> phyllite ->
-schist -> gneiss** represents increasing metamorphic grade.
+Low-grade metamorphism begins at temperatures just above sedimentary rock conditions. The sequence **slate → phyllite →
+schist → gneiss** represents increasing metamorphic grade.
 We use **index minerals** that form at specific temperatures and pressures to identify metamorphic grades. They also provide
 insight into the rock's protolith and the metamorphic conditions that created it. **Chlorite → Muscovite → biotite → garnet
-→ staurolite** are index minerals representing a respective sequence of low to high-grade rock.
+→ staurolite** are all index minerals representing a respective sequence of low to high-grade rock.
 
 ## Metamorphic Facies

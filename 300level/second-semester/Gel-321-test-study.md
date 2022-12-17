@@ -12,12 +12,21 @@
       - [Fluids](#fluids)
       - [Time](#time)
     - [Classification of Metamorphic Rock](#classification-of-metamorphic-rock)
+      - [Classification Based on the type of Metamorphism](#classification-based-on-the-type-of-metamorphism)
+        - [Contact Metamorphism](#contact-metamorphism)
+        - [Regional Metamorphism](#regional-metamorphism)
       - [Classification Based on Texture and Structure](#classification-based-on-texture-and-structure)
         - [Types of Foliated Metamorphic Rocks](#types-of-foliated-metamorphic-rocks)
         - [Types of Non-Foliated Metamorphic Rocks](#types-of-non-foliated-metamorphic-rocks)
         - [Migmatite both Metamorphic and Igneous](#migmatite-both-metamorphic-and-igneous)
   - [Metamorphic Grade](#metamorphic-grade)
   - [Metamorphic Facies](#metamorphic-facies)
+    - [Indexes](#indexes)
+  - [Changes in Metamorphism (or associated with metamorphism)](#changes-in-metamorphism-or-associated-with-metamorphism)
+    - [Compositional Changes](#compositional-changes)
+    - [Metamorphic Differentiation](#metamorphic-differentiation)
+  - [Metasomatism](#metasomatism)
+    - [Types of Metasomatism](#types-of-metasomatism)
 <!--toc:end-->
 
 ## Metamorphism and Metamorphic Rocks
@@ -82,7 +91,23 @@ under metamorphic conditions, the more complete their metamorphism is.
 do not necessarily exhibit foliation, because their minerals do not tend to show alignment.
 
 ### Classification of Metamorphic Rock
-Metamorphic rocks can be classified based on a variety of criteria
+Metamorphic rocks can be classified based on a variety of criteria including the type of metamorphism that took place,
+texture, mineralogy and conditions under which they were formed.
+
+#### Classification Based on the type of Metamorphism
+There are three main types of metamorphism contact, regional and dynamic.
+
+##### Contact Metamorphism
+Contact metamorphism occurs when rocks are subjected to relatively high temperatures, at relatively low pressures. This
+is typically due to magmatic intrusion in country rock. This kind of metamorphism occurs over a relatively small area
+and is characterized by changing mineral assemblages representing the increase of temperature towards the intrusion.
+It leads to the formation of rocks such as Hornfels and Skarn.
+
+##### Regional Metamorphism
+Occurs when rocks are subjected to high temperature and pressure over a large area usually due to tectonic activity. This
+high temperature and pressure are usually a result of deep burial within the earth, which takes place around subduction
+zones. This kind of metamorphism can lead to the formation of rocks like Gneiss, Schist and Marble.
+
 #### Classification Based on Texture and Structure
 Based on Texture and Structure Metamorphic rocks can be broadly classified into two types, foliated and non-foliated.
 Non-foliated metamorphic rocks are formed when the pressure during formation is uniform or low (near the surface). They
@@ -101,7 +126,7 @@ Four common types of metamorphic rocks, listed in order of metamorphic grade are
 * Schist: Forms at higher temperatures and pressures, and thus exhibits mica crystals that are large enough to see without
   magnification. Individual crystal faces may flash when the sample is turned, causing the rock to appear shiny. Other
   minerals like garnet might also be present.
-* Gneiss: Forms at the highest temperatures and pressures, and has crystals large enough to see with the unaided eyes.
+* Gneiss: Forms at the highest temperatures and pressures, and has crystals large enough to see with unaided eyes.
   Gneiss features minerals that have separated into bands of different colors. Gneiss usually contains little or no mica
   because they form at temperatures higher than those under which mica is stable.
 
@@ -112,18 +137,18 @@ metamorphic rock in order of increasing grade. Marble → Quartzite → Hornfels
 * Marble: Formed from the metamorphism of limestone. Forms pure white crystals if the parent limestone was pure, if not it could
   end up "marbled" in appearance.
 * Quartzite: Metamorphosed sandstone. Is dominated by Quartz but may contain clay minerals.
-* Hornfels: Formed from the metamorphism of fine-grained rocks like Murdock and volcanic rocks. The Hornfels usually appear to
-  have gneiss-like bands but these actually reflect alternating sandstone and shale that were in the protolith and are not related
+* Hornfels: Formed from the metamorphism of fine-grained rocks like Murdock and volcanic rocks. The Hornfels usually appears
+  to have gneiss-like bands but these reflect alternating sandstone and shale that were in the protolith and are not related
   to the alignment of crystals.
 
 ##### Migmatite both Metamorphic and Igneous
-If a metamorphic-rock is heated enough, it can begin to undergo partial melting in the same way that igneous rocks do. The more
+If a metamorphic rock is heated enough, it can begin to undergo partial melting in the same way that igneous rocks do. The more
 felsic minerals (Feldspar and Quartz) will melt, while the more mafic minerals (Biotite and Hornblende) do not. When the melt
-crystallizes again, the result is a light-colored igneous rock interpresed with a dark-colored metamorphic rock. This mixed rock
+crystallizes again, the result is a light-colored igneous rock interspersed with a dark-colored metamorphic rock. This mixed rock
 is called **Migmatite**.
 
 ## Metamorphic Grade
-Refers to the amount or degree of metamorphism a rock undergoes. It ranges from **log grade** (little
+Refers to the amount or degree of metamorphism a rock undergoes. It ranges from **low grade** (little
 metamorphism) to **high grade** (high metamorphism).   
 Low-grade metamorphism begins at temperatures just above sedimentary rock conditions. The sequence **slate → phyllite →
 schist → gneiss** represents increasing metamorphic grade.
@@ -134,5 +159,57 @@ insight into the rock's protolith and the metamorphic conditions that created it
 ## Metamorphic Facies
 A Metamorphic Facie is a group of metamorphic rocks that formed under the same temperature and pressure conditions, but have
 different protoliths.
-> A Metamorphic Facie can be defined as an assemblage of minerals which were formed together under the same metamorphic conditions
-of temperature and pressure but have different protoliths.
+High geothermal gradients such as those present around igneous intrusions, commonly result in metamorphic rocks belonging to the Hornfels
+facies. Average geothermal gradients usually lead to the formation of metamorphic rocks from zeolite → green-schist → amphibole
+→ eclogite facies. While low geothermal gradients found around oceanic crusts produce metamorphic rocks from zeolite → blue-schist
+to eclogite facies.
+
+### Indexes
+If we know the facies of metamorphic rock in the region, we can tell the geothermal history of that region.
+
+## Metamorphic Equilibria
+This refers to the balance between the minerals and the conditions (temperature, pressure and chemical composition) in metamorphic
+rock. When metamorphism takes place, minerals may react with each other and with surrounding fluids to form new minerals.
+The conditions in which these reactions occur and the resulting metamorphic rocks are known as Metamorphic Equilibria.
+Metamorphic Equilibria are important because they provide information about the conditions that rocks experience during metamorphism.
+
+## Changes in Metamorphism (or associated with metamorphism)
+There are several changes associated with metamorphism including changes in the composition, structure and texture of the rock.
+
+### Compositional Changes
+During metamorphism, the constituent minerals may change or recrystallize leading to changes in the chemical composition of the
+rock. For example, limestone which is a sedimentary rock composed primarily of the mineral calcite can be metamorphosed
+
+### Metamorphic Differentiation
+Metamorphic Differentiation is similar to Metamorphism, but unlike metamorphism, it is a process that occurs in metamorphic rocks
+where different materials within a rock begin to react with one another and with fluids present in the rock, leading to the formation
+of new minerals. This process id is driven by changes in temperature and pressure, as well as by the presence of chemically active fluids  
+There are so many ways in which metamorphic differentiation can occur.
+* Through Contact metamorphism:
+    In which rocks are subjected to high temperatures due to contact with magmatic intrusions.
+* Through Regional metamorphism:
+    In which rocks are subjected to high temperatures and pressures over a large area due to tectonic activity.
+During metamorphic differentiation, the original minerals in the rock may be altered to form new minerals with different chemical
+compositions. For example, Quartz may be transformed into the mineral Coesite through high temperature and pressure conditions.
+Similarly, the mineral Feldspar can be transformed into the mineral Mica.  
+Overall metamorphic differentiation is a complex process that can lead to the formation of new minerals, and the alteration of
+existing ones within metamorphic rocks.
+
+## Metasomatism
+Metasomatism is a metamorphic process that leads to the chemical alteration of rocks in a manner that involves the introduction,
+or removal of chemical components as a result of the interaction of the rock with chemically active fluids. Metasomatism takes place
+in an open system, where mass can enter and leave.  
+Metasomatic rocks, in general, have granofelsic or granoblastic structure.
+### Types of Metasomatism
+There are three main types of metasomatism.
+* Hydrothermal Metasomatism: 
+    Involves the alteration of rocks by hot chemical-rich fluids. This type of metasomatism can occur at different depths within the
+    earth but is mainly associated with magmatic and tectonic activity. Chemically rich fluids may be produced during the cooling and
+    solidification of magma. These fluids can then move through surrounding rocks altering their composition as they go. Hydrothermal
+    metasomatism can also occur when rocks are subjected to high temperatures and pressures during metamorphism.
+* Metamorphic Metasomatism:
+    This kind of metasomatism occurs during metamorphic processes, where high temperatures and pressures can cause fluids to be released
+    from rocks, these fluids can then go around altering the chemical and mineralogical composition of rocks.
+* Sedimentary Metasomatism:
+    This involves the alteration of sedimentary rocks due to the infiltration of fluids such as water or oil, which can change their
+    chemical and mineralogical composition.

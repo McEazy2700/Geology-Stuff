@@ -135,10 +135,24 @@ $$\frac{1}{2} \times 2 = 1\ (for\ the\ face\ atoms)$$
 $-$ we also see that the three inner atoms are not shared with any other unit cell and thus contribute a full atom each to the
 unit cell
 $$1 \times 3 = 3\ (for\ the\ inner\ atoms)$$
-this means the effective number of atom in HCP is 
+this means the effective number of atoms $z$ in HCP is 
 $$2 + 1 + 3 = 6atoms$$
 
 #### Packing Fraction
   the packing fraction of a Hexagonal-Closed Packed structure is given by  
   $$ PF = \frac{volume\ occupied\ by\ the\ atoms}{volume\ of\ the\ unit\ cell}$$
-  $$ volume\ occupied\ by\ the\ atoms = z \times volume of an atom$$
+- Solving for the volume occupied by the atoms in the cell  
+> the total volume $v_a$ occupied by atoms in a unit cell is given by
+> $$ v_a = z \times volume\ of\ an\ atom$$  
+> where $z$ is the effective number of atoms in the cell  
+> and $v_a$ is the total volume occupied by atoms in a unit cell  
+  $$ v_a = 6 \times \frac{4}{3} \pi r^3$$
+- Solving for the volume of the unit cell
+
+> the volume of the unit cell $v_u$ for HCP is given by  
+> $$ v_u = area\ of\ the\ base \times height(c)$$
+> - calculating the area of the base hexagon
+> consider the hexagon bellow
+> ![A hexagon divided into equilateral triangles](./images/hexagon-base.png)  
+> from the above diagram, we can see that six equilateral triangles make up the hexagons, therefore the area of one triangle
+> multiplied by 6 will give us the area of the hexagon

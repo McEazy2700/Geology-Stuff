@@ -1,5 +1,15 @@
-# Phy-322 Assignment
+# Federal University of Technology Minna
 
+
+## Geology Department
+### Answers to Physics 322 Assignment
+By Geology Department (Group 5)
+======
+
+### Group 5
+### ![Group 5 names](./images/Course-Matest.png)
+
+# Phy-322 Assignment
 
 <!--toc:start-->
 - [Phy-322 Assignment](#phy-322-assignment)
@@ -15,24 +25,12 @@
     - [8. Give full atomic coordinates of the Cesium Chloride (CsCl) structure.](#8-give-full-atomic-coordinates-of-the-cesium-chloride-cscl-structure)
     - [9. Derive the atomic coordinates of the HCP structure other than the method used in class.](#9-derive-the-atomic-coordinates-of-the-hcp-structure-other-than-the-method-used-in-class)
     - [10. Calculate the atomic packing fraction of](#10-calculate-the-atomic-packing-fraction-of)
+      - [Hexagonal Crystal lattice](#hexagonal-crystal-lattice)
+      - [Packing Fraction](#packing-fraction)
       - [Hexagonal-Closed Packed structure](#hexagonal-closed-packed-structure)
       - [Packing Fraction](#packing-fraction)
     - [11. Given the basic vector of Body-Centered Cubic lattice in real space with the expression.](#11-given-the-basic-vector-of-body-centered-cubic-lattice-in-real-space-with-the-expression)
       - [I. Determine the reciprocal lattice vectors.](#i-determine-the-reciprocal-lattice-vectors)
-  - [$$ \therefore \vec a_2 \times \vec a_3 = \frac{a^2}{2}(\hat x + \hat y)$$
----
-](#therefore-vec-a2-times-vec-a3-fraca22hat-x-hat-y)
-  - [$$ \therefore \vec a_1 \cdot (\vec a_2 \times \vec a_3) = \frac{a^3}{2}$$  
----
-](#therefore-vec-a1-cdot-vec-a2-times-vec-a3-fraca32)
-  - [$$ \therefore \vec a_3 \times \vec a_1 = \frac{a^2}{2}(\vec y + \vec z)$$
----
-](#therefore-vec-a3-times-vec-a1-fraca22vec-y-vec-z)
-  - [$$\therefore \vec a_1 \times \vec a_2 \ = \frac{a^2}{2}(\hat x + \hat y)$$
----
-](#therefore-vec-a1-times-vec-a2-fraca22hat-x-hat-y)
-      - [The reciprocal lattice of BCC are](#the-reciprocal-lattice-of-bcc-are)
-      - [II.  Draw the diagram of the Body-Centered System, showing the appropriate primitive basis vectors.](#ii-draw-the-diagram-of-the-body-centered-system-showing-the-appropriate-primitive-basis-vectors)
 <!--toc:end-->
 
 ## Questions
@@ -112,13 +110,13 @@ cell determines the overall properties of the crystal, such as its hardness, ele
 
 ### 7. Draw the basic vector that represents the primitive unit cell in the following 3D order
 * Body-Centered Cubic (BCC)  
-![Body-Centered Cubic lattice](./images/403px-Lattice_body_centered_cubic.png)  
+![Body-Centered Cubic lattice](./images/bcc-reciprocal-lattice.png)  
 
 * Face-Centered Cubic (FCC)  
 ![Face-Centered Cubic lattice](./images/399px-Lattice_face_centered_cubic.png)
 
 * Hexagonal-Closed Packed (HCP)  
-![Hexagonal-Closed Packed lattice(./images/Hexagonal,_close_packed_crystal_lattice.png)
+![Hexagonal-Closed Packed lattice](./images/Hexagonal,_close_packed_crystal_lattice.png)
 
 
 ### 8. Give full atomic coordinates of the Cesium Chloride (CsCl) structure.
@@ -136,6 +134,59 @@ From the above diagram, we can see that the Hexagonal-Closed Packed structure ha
 ### 10. Calculate the atomic packing fraction of
   * Hexagonal Crystal lattice
   * Hexagonal-Closed Packed structure
+#### Hexagonal Crystal lattice
+Consider the diagram bellow  
+![Hexagonal-Closed Packed lattice](./images/Hexagonal,_close_packed_crystal_lattice.png)  
+From the diagram above we notice that each atom at the edge of the hexagon is shared between six cells
+![HCP Diagram showing sharing of edge atoms](./images/Lattice-sharing-of-atom-HCP.png)  
+* 3 cells at the top
+* 3 cells at the bottom  
+$-$ each of the 12 edge atoms contributes a total of $\frac{1}{6}$ atoms to the cell  
+$$\frac{1}{6} \times 12 = 2\ (for\ the\ edge\ atoms)$$
+$-$ we can also see that each of the face atoms is being shared between two adjacent unit cells, thus the two face atoms
+(at the top and the bottom), contribute a total of $\frac{1}{2}$ atoms.
+$$\frac{1}{2} \times 2 = 1\ (for\ the\ face\ atoms)$$
+$-$ we also see that the three inner atoms are not shared with any other unit cell and thus contribute a full atom each to the
+unit cell
+$$1 \times 3 = 3\ (for\ the\ inner\ atoms)$$
+this means the effective number of atoms $z$ in HCP is 
+$$2 + 1 + 3 = 6atoms$$
+
+#### Packing Fraction
+  the packing fraction of a Hexagonal-Closed Packed structure is given by  
+  $$ PF = \frac{volume\ occupied\ by\ the\ atoms}{volume\ of\ the\ unit\ cell}$$
+- Solving for the volume occupied by the atoms in the cell  
+ the total volume $v_a$ occupied by atoms in a unit cell is given by
+ $$ v_a = z \times volume\ of\ an\ atom$$  
+ where $z$ is the effective number of atoms in the cell  
+ and $v_a$ is the total volume occupied by atoms in a unit cell  
+  $$ v_a = 6 \times \frac{4}{3} \pi r^3$$
+- Solving for the volume of the unit cell
+
+the volume of the unit cell $v_u$ for HCP is given by  
+$$ v_u = area\ of\ the\ base \times height(C)$$
+- calculating the area of the base hexagon
+consider the hexagon bellow
+![A hexagon divided into equilateral triangles](./images/hexagon-base.png)  
+from the above diagram, we can see that six equilateral triangles make up the hexagons, therefore the area of one triangle
+multiplied by 6 will give us the area of the hexagon
+the area of a triangle is $\frac{1}{2}base \times h$
+![Closed packed triangle](./images/closed-packed-triangle.png)
+from the diagram above, the distance between two touching atoms $a = 2r$  
+using pythagoras theorem we can solve for the height of the triangle  
+$$a^2 = (\frac{1}{2}a)^2 \times h^2$$
+$$h = \frac{a\sqrt{3}}{4}$$
+thus the area of the triangle $A$ is  
+$$ A = \frac{1}{2} \times a \times (\frac{1}{2}a)^2 \times h^2$$
+$$ = \frac{\sqrt{3}a^2}{4}$$
+multiplied by 6, the area of the hexagon $A_h$ is
+$$ A_h = \frac{3\sqrt{3}a^2}{2}$$
+the volume of HCP = $A_h \times C$
+whre $C$ is the height of the HCP lattice  
+$$C = \frac{4r\sqrt{2}}{\sqrt{3}}$$ 
+
+$$\therefore PF = \frac{6 \times \frac{4}{3}\pi \times (\frac{a}{3})^3}{\frac{3a^2\sqrt{3}}{2} \times C}$$
+$$the\ atomic\ packing\ fraction\ PF = 0.75$$
 
 #### Hexagonal-Closed Packed structure
 Consider the diagram bellow  
@@ -184,6 +235,7 @@ $$ A = \frac{1}{2} \times a \times (\frac{1}{2}a)^2 \times h^2$$
 $$ = \frac{\sqrt{3}a^2}{4}$$
 multiplied by 6, the area of the hexagon $A_h$ is
 $$ A_h = \frac{3\sqrt{3}a^2}{2}$$
+recall that volume of the unit cell for HCP is given as $area\ of\ the\ base \times height(C)$  
 the volume of HCP = $A_h \times C$
 whre $C$ is the height of the HCP lattice  
 $$C = \frac{4r\sqrt{2}}{\sqrt{3}}$$ 

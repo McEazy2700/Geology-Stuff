@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html xmlns="http://www.w3.org/1999/xhtml" lang="" xml:lang="">
+
 <head>
   <meta charset="utf-8" />
   <meta name="generator" content="pandoc" />
@@ -13,9 +14,10 @@
       color: #1a1a1a;
       background-color: #fdfdfd;
     }
+
     body {
       margin: 0 auto;
-      max-width: 36em;
+      max-width: 63em;
       padding-left: 50px;
       padding-right: 50px;
       padding-top: 50px;
@@ -25,84 +27,123 @@
       text-rendering: optimizeLegibility;
       font-kerning: normal;
     }
+
     @media (max-width: 600px) {
       body {
         font-size: 0.9em;
         padding: 1em;
       }
     }
+
     @media print {
       body {
         background-color: transparent;
         color: black;
         font-size: 12pt;
       }
-      p, h2, h3 {
+
+      p,
+      h2,
+      h3 {
         orphans: 3;
         widows: 3;
       }
-      h2, h3, h4 {
+
+      h2,
+      h3,
+      h4 {
         page-break-after: avoid;
       }
     }
+
     p {
       margin: 1em 0;
+      display: flex;
+      flex-direction: column;
     }
+
+    p img {
+      align-self: center;
+      justify-self: center;
+    }
+
     a {
       color: #1a1a1a;
     }
+
     a:visited {
       color: #1a1a1a;
     }
+
     img {
       max-width: 100%;
     }
-    h1, h2, h3, h4, h5, h6 {
+
+    h1,
+    h2,
+    h3,
+    h4,
+    h5,
+    h6 {
       margin-top: 1.4em;
     }
-    h5, h6 {
+
+    h5,
+    h6 {
       font-size: 1em;
       font-style: italic;
     }
+
     h6 {
       font-weight: normal;
     }
-    ol, ul {
+
+    ol,
+    ul {
       padding-left: 1.7em;
       margin-top: 1em;
     }
-    li > ol, li > ul {
+
+    li>ol,
+    li>ul {
       margin-top: 0;
     }
+
     blockquote {
       margin: 1em 0 1em 1.7em;
       padding-left: 1em;
       border-left: 2px solid #e6e6e6;
       color: #606060;
     }
+
     code {
       font-family: Menlo, Monaco, 'Lucida Console', Consolas, monospace;
       font-size: 85%;
       margin: 0;
     }
+
     pre {
       margin: 1em 0;
       overflow: auto;
     }
+
     pre code {
       padding: 0;
       overflow: visible;
     }
+
     .sourceCode {
-     background-color: transparent;
-     overflow: visible;
+      background-color: transparent;
+      overflow: visible;
     }
+
     hr {
       background-color: #1a1a1a;
       border: none;
       height: 1px;
       margin: 1em 0;
     }
+
     table {
       margin: 1em 0;
       border-collapse: collapse;
@@ -111,287 +152,541 @@
       display: block;
       font-variant-numeric: lining-nums tabular-nums;
     }
+
     table caption {
       margin-bottom: 0.75em;
     }
+
     tbody {
       margin-top: 0.5em;
       border-top: 1px solid #1a1a1a;
       border-bottom: 1px solid #1a1a1a;
     }
+
     th {
       border-top: 1px solid #1a1a1a;
       padding: 0.25em 0.5em 0.25em 0.5em;
     }
+
     td {
       padding: 0.125em 0.5em 0.25em 0.5em;
     }
+
     header {
       margin-bottom: 4em;
       text-align: center;
     }
+
     #TOC li {
       list-style: none;
     }
+
     #TOC a:not(:hover) {
       text-decoration: none;
     }
-    code{white-space: pre-wrap;}
-    span.smallcaps{font-variant: small-caps;}
-    span.underline{text-decoration: underline;}
-    div.column{display: inline-block; vertical-align: top; width: 50%;}
-    div.hanging-indent{margin-left: 1.5em; text-indent: -1.5em;}
-    ul.task-list{list-style: none;}
+
+    code {
+      white-space: pre-wrap;
+    }
+
+    span.smallcaps {
+      font-variant: small-caps;
+    }
+
+    span.underline {
+      text-decoration: underline;
+    }
+
+    div.column {
+      display: inline-block;
+      vertical-align: top;
+      width: 50%;
+    }
+
+    div.hanging-indent {
+      margin-left: 1.5em;
+      text-indent: -1.5em;
+    }
+
+    ul.task-list {
+      list-style: none;
+    }
+    .first_page,
+    .grp_members {
+      min-height: 100vh;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+    }
   </style>
   <script src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-chtml-full.js" type="text/javascript"></script>
   <!--[if lt IE 9]>
     <script src="//cdnjs.cloudflare.com/ajax/libs/html5shiv/3.7.3/html5shiv-printshiv.min.js"></script>
   <![endif]-->
 </head>
+
 <body>
-<header id="title-block-header">
-<h1 class="title">Physics Assignment</h1>
-</header>
-<h1 id="phy-322-assignment">Phy-322 Assignment</h1>
-<!--toc:start-->
-<ul>
-<li><a href="#phy-322-assignment">Phy-322 Assignment</a>
-<ul>
-<li><a href="#questions">Questions</a></li>
-<li><a href="#answers">Answers</a>
-<ul>
-<li><a href="#1-give-all-possible-definitions-of-crystal-that-you-know">1. Give all possible definitions of Crystal that you know.</a></li>
-<li><a href="#2-give-two-definitions-of-amorphous-materials">2. Give two definitions of amorphous materials.</a></li>
-<li><a href="#3-give-three-definitions-of-a-lattice">3. Give three definitions of a lattice.</a></li>
-<li><a href="#4-give-two-definitions-of-bravais-lattice">4. Give two definitions of Bravais lattice.</a></li>
-<li><a href="#5-define-what-is-meant-by-basicbasis-cell">5. Define what is meant by basic/basis cell.</a></li>
-<li><a href="#6-list-two-definitions-of-the-primitive-unit-cell">6. List two definitions of the primitive unit cell.</a></li>
-<li><a href="#7-draw-the-basic-vector-that-represents-the-primitive-unit-cell-in-the-following-3d-order">7. Draw the basic vector that represents the primitive unit cell in the following 3D order</a></li>
-<li><a href="#8-give-full-atomic-coordinates-of-nacl-structure">8. Give full atomic coordinates of NaCl structure.</a></li>
-<li><a href="#10-calculate-the-atomic-packing-fraction-of">10. Calculate the atomic packing fraction of</a>
-<ul>
-<li><a href="#hexagonal-closed-packed-structure">Hexagonal-Closed Packed structure</a></li>
-<li><a href="#packing-fraction">Packing Fraction</a> <!--toc:end--></li>
-</ul></li>
-</ul></li>
-</ul></li>
-</ul>
-<h2 id="questions">Questions</h2>
-<ol type="1">
-<li>Give all possible definitions of Crystal that you know.</li>
-<li>Give two definitions of amorphous materials.</li>
-<li>Give three definitions of a lattice.</li>
-<li>Give two definitions of Bravais lattice.</li>
-<li>Define what is meant by basic/basis cell.</li>
-<li>List two definitions of the primitive unit cell.</li>
-<li>Draw the basic vector that represents the primitive unit cell in the following 3D order</li>
-</ol>
-<ul>
-<li>Body-Centered Cubic (BCC)</li>
-<li>Face-Centered Cubic (FCC)</li>
-<li>Hexagonal-Closed Packed (HCP)</li>
-</ul>
-<ol start="8" type="1">
-<li>Give full atomic coordinates of NaCl structure.</li>
-<li>Derive the atomic coordinates of the HCP structure other than the method used in class.</li>
-<li>Calculate the atomic packing fraction of</li>
-</ol>
-<ul>
-<li>Hexagonal Crystal lattice</li>
-<li>Hexagonal-Closed Packed structure</li>
-</ul>
-<ol start="11" type="1">
-<li>Given the basic vector of Body-Centered Cubic lattice in real space with the expression.<br />
-<span class="math display">\[a1 = \frac{a}{2}x + \frac{a}{2}y - \frac{a}{2}z\]</span> <span class="math display">\[a2 = -\frac{a}{2}x + \frac{a}{2}y + \frac{a}{2}z\]</span> <span class="math display">\[a3 = \frac{a}{2}x - \frac{a}{2}y + \frac{a}{2}z\]</span></li>
-</ol>
-<ul>
-<li>Determine the reciprocal lattice vectors.</li>
-<li>Draw the diagram of the Body-Centered System, showing the appropriate primitive basis vectors.</li>
-</ul>
-<h2 id="answers">Answers</h2>
-<h3 id="give-all-possible-definitions-of-crystal-that-you-know.">1. Give all possible definitions of Crystal that you know.</h3>
-<ul>
-<li>A crystal or crystalline solid is a solid material whose constituents (such as atoms, molecules, or ions) are arranged in a highly ordered microscopic structure, forming a crystal lattice that extends in all directions.</li>
-<li>A crystal is a solid material in which atoms, ions and molecules are arranged in regularly repeating pattern that extends in all three spatial dimensions,</li>
-<li>A crystal is any solid crystalline substance, and thus has a regular and ordered internal arrangement of atoms, ions or molecules.</li>
-<li>A crystal is a solid substance that is composed of atoms, ions, and molecules that are arranged in a regular geometric pattern. In general, “crystal” is used to describe materials that have a regular repeating and symmetrical atomic structure<br />
-<em><strong>Rerfrence</strong> <a href="https://chat.openai.com/chat">Open AI Chat GPT-3</a></em></li>
-</ul>
-<h3 id="give-two-definitions-of-amorphous-materials.">2. Give two definitions of amorphous materials.</h3>
-<ul>
-<li>An amorphous material is a solid material that lacks long-range order in its atomic structure.</li>
-<li>A solid in which the constituent particles do possess a regular three-dimensional arrangement.</li>
-<li>An amorphous material can also be defined as a solid that has a somewhat random internal arrangement of atoms, ions and molecules, which gives them a glassy appearance. Examples of amorphous solids include glass, plastics, and many types of rubber.<br />
-<em><strong>Rerfrence</strong> <a href="https://chat.openai.com/chat">Open AI Chat GPT-3</a></em></li>
-</ul>
-<h3 id="give-three-definitions-of-a-lattice.">3. Give three definitions of a lattice.</h3>
-<ul>
-<li>A lattice is a regularly repeating arrangement of points in three-dimensional space, that is usually occupied by atoms, ions or molecules.</li>
-<li>A lattice can also be defined as a three-dimensional array of points that form a regular and repeating pattern. <em><strong>Rerfrence</strong> <a href="https://chat.openai.com/chat">Open AI Chat GPT-3</a></em></li>
-<li>A set of mathematical points to which the crystal is attached.<br />
-<em><strong>Rerfrence</strong> Solid State Physics Kittle</em></li>
-</ul>
-<h3 id="give-two-definitions-of-bravais-lattice.">4. Give two definitions of Bravais lattice.</h3>
-<ul>
-<li>A Bravais Lattice is an array of discrete points that look the same in all directions and orientations that look the same in all directions.<br />
-<em><strong>Reference</strong> <a href="https://byjus.com/chemistry/bravais-lattice/">byjus.com</a></em></li>
-<li>A Bravais Lattice is the basic building block from which all crystals can be constructed. <em><strong>Reference</strong> <a href="https://chem.libretexts.org/Bookshelves/Analytical_Chemistry/Physical_Methods_in_Chemistry_and_Nano_Science_(Barron)/07%3A_Molecular_and_Solid_State_Structure/7.01%3A_Crystal_Structure">libretexts.org</a></em></li>
-</ul>
-<h3 id="define-what-is-meant-by-basicbasis-cell.">5. Define what is meant by basic/basis cell.</h3>
-<p>A basic cell or basis cell is the smallest unit cell that can be used to construct the entire crystal lattice without gaps or overlaps. It is a three-dimensional structure that is repeated in a crystal lattice to create the overall crystal structure. The basic cell is characterized by the lengths of its sides and the angles between them, and it is used to define the fundamental geometry of the crystal lattice. The arrangement of atoms within the basic cell determines the overall properties of the crystal, such as its hardness, electrical conductivity, and thermal conductivity.</p>
-<h3 id="list-two-definitions-of-the-primitive-unit-cell.">6. List two definitions of the primitive unit cell.</h3>
-<ul>
-<li>A primitive unit cell is a basic building block of a crystal lattice. It is the smallest unit cell that can be used to construct the entire crystal lattice without gaps or overlaps.</li>
-<li>A primitive unit cell is a three-dimensional structure that is repeated in a crystal lattice to create the overall crystal structure. It is the smallest unit cell that can be used to construct the entire crystal lattice without gaps or overlaps, and it is characterized by the lengths of its sides and the angles between them. <em><strong>Rerfrence</strong> <a href="https://chat.openai.com/chat">Open AI Chat GPT-3</a></em></li>
-</ul>
-<h3 id="draw-the-basic-vector-that-represents-the-primitive-unit-cell-in-the-following-3d-order">7. Draw the basic vector that represents the primitive unit cell in the following 3D order</h3>
-<ul>
-<li><p>Body-Centered Cubic (BCC)<br />
-<img src="./images/403px-Lattice_body_centered_cubic.png" alt="Body-Centered Cubic lattice" /></p></li>
-<li><p>Face-Centered Cubic (FCC)<br />
-<img src="./images/399px-Lattice_face_centered_cubic.png" alt="Face-Centered Cubic lattice" /></p></li>
-<li><p>Hexagonal-Closed Packed (HCP)<br />
-![Hexagonal-Closed Packed lattice(./images/Hexagonal,_close_packed_crystal_lattice.png)</p></li>
-</ul>
-<h3 id="give-full-atomic-coordinates-of-nacl-structure.">8. Give full atomic coordinates of NaCl structure.</h3>
-<p>Sodium chloride is an ionic compound with the chemical formula NaCl, representing a 1:1 ratio of Na and Cl<span class="math inline">\(_2\)</span> with molar masses of 22.99 and 35.45 gmol<span class="math inline">\(^{-1}\)</span> respectively. <img src="./images/NaCl-coordinates.png" alt="Sodium Chloride" /> * NaCl has a Cubic-Closed Packed (CCP) arrangement. * The structure of sodium chloride consists of eight ions in a unit cell, four are Na<span class="math inline">\(^+\)</span> ions and the other four are Cl<span class="math inline">\(^-\)</span><br />
-In this structure, each corner of the ion is shared between eight unit cells, each ion at the faces of each cell is shared between two cells, each ion on an edge is shared between four cells, while the ion inside the cell belongs entirely to that unit cell. So the position of the ions is the following(with Na at the center of the axis): * <strong>Na<span class="math inline">\(^+\)</span></strong> (0 0 0) (<span class="math inline">\(\frac{1}{2}\)</span> <span class="math inline">\(\frac{1}{2}\)</span> 0) (<span class="math inline">\(\frac{1}{2}\)</span> 0 <span class="math inline">\(\frac{1}{2}\)</span>) (0 <span class="math inline">\(\frac{1}{2}\)</span> <span class="math inline">\(\frac{1}{2}\)</span>) * <strong>Cl<span class="math inline">\(^-\)</span></strong> (0 <span class="math inline">\(\frac{1}{2}\)</span> 0) (<span class="math inline">\(\frac{1}{2}\)</span> 0 0) (0 0 <span class="math inline">\(\frac{1}{2}\)</span>) (<span class="math inline">\(\frac{1}{2}\)</span> <span class="math inline">\(\frac{1}{2}\)</span> <span class="math inline">\(\frac{1}{2}\)</span>)</p>
-<h3 id="derive-the-atomic-coordinates-of-the-hcp-structure-other-than-the-method-used-in-class.">9. Derive the atomic coordinates of the HCP structure other than the method used in class.</h3>
-<p><img src="./images/HCP_Coordination-number.png" alt="HCP Showing Coordination number" /><br />
-From the above diagram, we can see that Hexagonal-Closed Packed structure has a Coordination number of twelve(12).</p>
-<h3 id="calculate-the-atomic-packing-fraction-of">10. Calculate the atomic packing fraction of</h3>
-<ul>
-<li>Hexagonal Crystal lattice</li>
-<li>Hexagonal-Closed Packed structure</li>
-</ul>
-<h4 id="hexagonal-closed-packed-structure">Hexagonal-Closed Packed structure</h4>
-<p>Consider the diagram bellow<br />
-<img src="./images/Hexagonal,_close_packed_crystal_lattice.png" alt="Hexagonal-Closed Packed lattice" /><br />
-From the diagram above we notice that each atom at the edge of the hexagon is shared between six cells <img src="./images/Lattice-sharing-of-atom-HCP.png" alt="HCP Diagram showing sharing of edge atoms" /><br />
-* 3 cells at the top * 3 cells at the bottom<br />
-<span class="math inline">\(-\)</span> each of the 12 edge atoms contributes a total of <span class="math inline">\(\frac{1}{6}\)</span> atoms to the cell<br />
-<span class="math display">\[\frac{1}{6} \times 12 = 2\ (for\ the\ edge\ atoms)\]</span> <span class="math inline">\(-\)</span> we can also see that each of the face atoms is being shared between two adjacent unit cells, thus the two face atoms (at the top and the bottom), contribute a total of <span class="math inline">\(\frac{1}{2}\)</span> atoms. <span class="math display">\[\frac{1}{2} \times 2 = 1\ (for\ the\ face\ atoms)\]</span> <span class="math inline">\(-\)</span> we also see that the three inner atoms are not shared with any other unit cell and thus contribute a full atom each to the unit cell <span class="math display">\[1 \times 3 = 3\ (for\ the\ inner\ atoms)\]</span> this means the effective number of atoms <span class="math inline">\(z\)</span> in HCP is <span class="math display">\[2 + 1 + 3 = 6atoms\]</span></p>
-<h4 id="packing-fraction">Packing Fraction</h4>
-<p>the packing fraction of a Hexagonal-Closed Packed structure is given by<br />
-<span class="math display">\[ PF = \frac{volume\ occupied\ by\ the\ atoms}{volume\ of\ the\ unit\ cell}\]</span> - Solving for the volume occupied by the atoms in the cell<br />
-the total volume <span class="math inline">\(v_a\)</span> occupied by atoms in a unit cell is given by <span class="math display">\[ v_a = z \times volume\ of\ an\ atom\]</span><br />
-where <span class="math inline">\(z\)</span> is the effective number of atoms in the cell<br />
-and <span class="math inline">\(v_a\)</span> is the total volume occupied by atoms in a unit cell<br />
-<span class="math display">\[ v_a = 6 \times \frac{4}{3} \pi r^3\]</span> - Solving for the volume of the unit cell</p>
-<p>the volume of the unit cell <span class="math inline">\(v_u\)</span> for HCP is given by<br />
-<span class="math display">\[ v_u = area\ of\ the\ base \times height(C)\]</span> - calculating the area of the base hexagon consider the hexagon bellow <img src="./images/hexagon-base.png" alt="A hexagon divided into equilateral triangles" /><br />
-from the above diagram, we can see that six equilateral triangles make up the hexagons, therefore the area of one triangle multiplied by 6 will give us the area of the hexagon the area of a triangle is <span class="math inline">\(\frac{1}{2}base \times h\)</span> <img src="./images/closed-packed-triangle.png" alt="Closed packed triangle" /> from the diagram above, the distance between two touching atoms <span class="math inline">\(a = 2r\)</span><br />
-using pythagoras theorem we can solve for the height of the triangle<br />
-<span class="math display">\[a^2 = (\frac{1}{2}a)^2 \times h^2\]</span> <span class="math display">\[h = \frac{a\sqrt{3}}{4}\]</span> thus the area of the triangle <span class="math inline">\(A\)</span> is<br />
-<span class="math display">\[ A = \frac{1}{2} \times a \times (\frac{1}{2}a)^2 \times h^2\]</span> <span class="math display">\[ = \frac{\sqrt{3}a^2}{4}\]</span> multiplied by 6, the area of the hexagon <span class="math inline">\(A_h\)</span> is <span class="math display">\[ A_h = \frac{3\sqrt{3}a^2}{2}\]</span> the volume of HCP = <span class="math inline">\(A_h \times C\)</span> whre <span class="math inline">\(C\)</span> is the height of the HCP lattice<br />
-<span class="math display">\[C = \frac{4r\sqrt{2}}{\sqrt{3}}\]</span></p>
-<p><span class="math display">\[\therefore PF = \frac{6 \times \frac{4}{3}\pi \times (\frac{a}{3})^3}{\frac{3a^2\sqrt{3}}{2} \times C}\]</span> <span class="math display">\[the\ atomic\ packing\ fraction\ PF = 0.75\]</span> <span class="math display">\[the\ atomic\ packing\ percentage\ = 75\%\]</span></p>
-<h3 id="given-the-basic-vector-of-body-centered-cubic-lattice-in-real-space-with-the-expression.">11. Given the basic vector of Body-Centered Cubic lattice in real space with the expression.</h3>
-<p><span class="math display">\[a1 = \frac{a}{2}x + \frac{a}{2}y - \frac{a}{2}z\]</span> <span class="math display">\[a2 = -\frac{a}{2}x + \frac{a}{2}y + \frac{a}{2}z\]</span> <span class="math display">\[a3 = \frac{a}{2}x - \frac{a}{2}y + \frac{a}{2}z\]</span></p>
-<h4 id="i.-determine-the-reciprocal-lattice-vectors.">I. Determine the reciprocal lattice vectors.</h4>
-<p><img src="./images/bcc-reciprocal-lattice.png" alt="BCC reciprocal lattice" /><br />
-The Reciprocal lattice of BCC are given by: <span class="math display">\[
-\vec a_1 = \frac{2\pi(\vec a_2 \times \vec a_3)}{\vec a_1 \cdot (\vec a_2 \times \vec a_3)}
-\ \ \vec a_2 = \frac{2\pi(\vec a_3 \times \vec a_1)}{\vec a_1 \cdot (\vec a_2 \times \vec a_3)}
-\ \ \vec a_3 = \frac{2\pi(\vec a_1 \times \vec a_2)}{\vec a_1 \cdot (\vec a_2 \times \vec a_3)}
-\]</span> <span class="math display">\[ \vec a_2 \times \vec a_3 = \frac{a}{2}(-\hat x -\hat y + \hat z) \times \frac{a}{2}(\hat x - \hat y + \hat z)\]</span> <span class="math display">\[ = \frac{a^2}{4}\begin{bmatrix}
-\hat x &amp; \hat y &amp; \hat z \\
--1 &amp; 1 &amp; 1 \\
-1 &amp; -1 &amp; 1
-\end{bmatrix} \
-= \frac{a^2}{4}\cdot \hat x\begin{bmatrix}1 &amp; 1\\ -1 &amp; 1 \end{bmatrix}
--\hat y\begin{bmatrix} -1 &amp; 1 \\ 1 &amp; 1 \end{bmatrix}
-+\hat x\begin{bmatrix} -1 &amp; 1 \\ 1 &amp; 1 \end{bmatrix}
-\]</span> <span class="math display">\[ \vec a_2 \times \vec a_3 = \frac{a^3}{4}\cdot \hat x(1 + 1) -\hat y(-1 -1) + \hat z(1 - 1)\]</span> <span class="math display">\[ = \frac{a^2}{4}\cdot 2\hat x + 2\hat y\ \ \  = \frac{a^2}{x}\cdot 2(\hat x + \hat y) \ \ \ =\frac{a^2}{2}(\hat x + \hat y)\]</span></p>
-<table>
-<tbody>
-<tr class="odd">
-<td><span class="math display">\[ \therefore \vec a_2 \times \vec a_3 = \frac{a^2}{2}(\hat x + \hat y)\]</span></td>
-</tr>
-</tbody>
-</table>
-<p><span class="math display">\[ \vec a_1 \cdot (\vec a_2 \times a_3) = \frac{a}{2}(\hat x + \hat y - \hat z) \cdot \frac{a^2}{2}(\hat x + \hat y)\]</span> <span class="math display">\[ = \frac{a^3}{4}(\hat x \cdot \hat x + \hat y \cdot \hat y) \ \ \ = \frac{a^3}{4}(1 + 1) \ \ \ = \frac{a^3}{4}(2) \ \ \ = \frac{a^3}{2}\]</span></p>
-<table>
-<tbody>
-<tr class="odd">
-<td><span class="math display">\[ \therefore \vec a_1 \cdot (\vec a_2 \times \vec a_3) = \frac{a^3}{2}\]</span></td>
-</tr>
-</tbody>
-</table>
-<p><span class="math display">\[ \vec a_3 \times \vec a_1 = \frac{a}{2}(\hat x - \hat y + \hat z) \times \frac{a}{2}(\hat x + \hat y - \hat z)\]</span> <span class="math display">\[ = \frac{a^2}{4}(\hat x - \hat y + \hat z) \times (\hat x + \hat y - \hat z)\]</span> <span class="math display">\[ = \frac{a^2}{4}
-\begin{bmatrix}
-\hat x &amp; \hat y &amp; \hat z \\
-1 &amp; -1 &amp; 1 \\
-1 &amp; 1 &amp; -1
-\end{bmatrix}
-\ \ = \frac{a^2}{4} \cdot \begin{bmatrix}
-\vec x \begin{bmatrix} -1 &amp; 1 \\ 1 &amp; -1 \end{bmatrix}
--\vec y \begin{bmatrix} 1 &amp; 1 \\ 1 &amp; -1  \end{bmatrix}
-+\vec z \begin{bmatrix} 1 &amp; -1 \\ 1 &amp; 1 \end{bmatrix}
-\end{bmatrix}
-\]</span> <span class="math display">\[
-\vec a_3 \times \vec a_1 = \frac{a^2}{4} \cdot \begin{bmatrix} \hat x(1 -1) -\hat y(-1-1) + \hat z(1 + 1) \end{bmatrix}
-\]</span> <span class="math display">\[ = \frac{a^2}{4} \cdot  \begin{bmatrix} \hat x(0) -\hat y(-2) + \hat z(2) \end{bmatrix}\]</span> <span class="math display">\[
-= \frac{a^2}{4} \cdot 2\hat y + 2\hat z
-\ \ = \frac{a^3}{4} \cdot 2(\hat y + \hat z)
-\ \ = \frac{a^3}{2}(\hat y + \hat z)
-\]</span></p>
-<table>
-<tbody>
-<tr class="odd">
-<td><span class="math display">\[ \therefore \vec a_3 \times \vec a_1 = \frac{a^2}{2}(\vec y + \vec z)\]</span></td>
-</tr>
-</tbody>
-</table>
-<p><span class="math display">\[ \vec a_1 \times \vec a_2 = \frac{a}{2}(\hat x + \hat y + \hat z) \times \frac{a}{2}(-\hat x + \hat y + \hat z)\]</span> <span class="math display">\[ = \frac{a^2}{4}(\hat x + \hat y -\hat z) \times (-\hat x + \hat y + \hat z)\]</span> <span class="math display">\[
-= \frac{a^2}{4}
-\begin{bmatrix}
-\hat x &amp; \hat y &amp; \hat z \\
-1 &amp; 1 &amp; -1 \\
--1 &amp; 1 &amp; 1
-\end{bmatrix}
-\ \ \ = \frac{a^2}{4}
-\cdot \begin{bmatrix}
-\hat x\begin{bmatrix} 1 &amp; -1 \\ 1 &amp; 1  \end{bmatrix}
--\hat y \begin{bmatrix} 1 &amp; -1 \\ -1 &amp; 1 \end{bmatrix}
-+\hat z \begin{bmatrix} 1 &amp; 1 \\ -1 &amp; 1 \end{bmatrix}
-\end{bmatrix}
-\]</span> <span class="math display">\[
-\vec a_1 \times \vec a_2  = \frac{a^2}{4}
-\cdot \begin{bmatrix}
-\hat x(1 + 1) -\hat y(1 - 1) + \hat z(1 + 1)
-\end{bmatrix}
-\]</span> <span class="math display">\[
-= \frac{a^2}{4}\begin{bmatrix} 2\vec x + 2\vec z \end{bmatrix}
-\ \ = \frac{a^2}{4}\cdot 2(\hat x + \hat z)
-\ \ = \frac{a^2}{2}\cdot (\hat x + \hat z)
-\]</span></p>
-<table>
-<tbody>
-<tr class="odd">
-<td><span class="math display">\[\therefore \vec a_1 \times \vec a_2 \ = \frac{a^2}{2}(\hat x + \hat y)\]</span></td>
-</tr>
-</tbody>
-</table>
-<h4 id="the-reciprocal-lattice-of-bcc-are">The reciprocal lattice of BCC are</h4>
-<p><span class="math display">\[\vec a_1 = \frac{2\pi(\vec a_2 \times \vec a_3)}{a_1\cdot (\vec a_2 \times \vec a_3)}
-\ \ \ = \frac{2\pi\cdot \frac{a^2}{2}(\hat x + \hat y)}{\frac{a^3}{2}}
-\ \ \ = \frac{\pi a^3(\hat x + \hat y)}{\frac{a^3}{2}}
-\ \ \ = \frac{2\pi}{a}(\hat x + \hat y)
-\]</span> <span class="math display">\[\vec a_2 = \frac{2\pi(\vec a_3 \times \vec a_1)}{a_1\cdot (\vec a_2 \times \vec a_3)}
-\ \ \ = \frac{2\pi\cdot \frac{a^2}{2}(\hat y + \hat z)}{\frac{a^3}{2}}
-\ \ \ = \frac{\pi a^3(\hat y + \hat z)}{\frac{a^3}{2}}
-\ \ \ = \frac{2\pi}{a}(\hat y + \hat z)
-\]</span> <span class="math display">\[\vec a_2 = \frac{2\pi(\vec a_1 \times \vec a_2)}{a_1\cdot (\vec a_2 \times \vec a_3)}
-\ \ \ = \frac{2\pi\cdot \frac{a^2}{2}(\hat x + \hat z)}{\frac{a^3}{2}}
-\ \ \ = \frac{\pi a^3(\hat x + \hat z)}{\frac{a^3}{2}}
-\ \ \ = \frac{2\pi}{a}(\hat x + \hat z)
-\]</span></p>
-<h4 id="ii.-draw-the-diagram-of-the-body-centered-system-showing-the-appropriate-primitive-basis-vectors.">II. Draw the diagram of the Body-Centered System, showing the appropriate primitive basis vectors.</h4>
-<figure>
-<img src="./images/bcc-reciprocal-lattice.png" alt="BCC Lattice" /><figcaption aria-hidden="true">BCC Lattice</figcaption>
-</figure>
-<pre><code>    BCC System showing appropriate primitive basis vectors.</code></pre>
-<p>Source <a href="https://www.researchgate.net/figure/The-body-centred-cubic-BCC-reciprocal-lattice-of-a-FCC-lattice-shown-in-Fig-13_fig2_264872465">Research Gate</a></p>
+  <header id="title-block-header">
+    <h1 class="title">Physics Assignment</h1>
+  </header>
+  <div class="first_page">
+    <h1>Federal University of Technology Minna</h1>
+    <br />
+    <h2>Geology Department</h2>
+    <br />
+    <h3>Answers to Physics 322 Assignment</h3>
+    <p>By Geology Department (Group 5)</p>
+  </div>
+  <div class="grp_members">
+    <h3>Group 5</h3>
+    <img src="./images/Course-Matest.png" />
+  </div>
+  <h1 id="phy-322-assignment">Phy-322 Assignment</h1>
+  <!--toc:start-->
+  <ul>
+    <li><a href="#phy-322-assignment">Phy-322 Assignment</a>
+      <ul>
+        <li><a href="#questions">Questions</a></li>
+        <li><a href="#answers">Answers</a>
+          <ul>
+            <li><a href="#1-give-all-possible-definitions-of-crystal-that-you-know">1. Give all possible definitions of
+                Crystal that you know.</a></li>
+            <li><a href="#2-give-two-definitions-of-amorphous-materials">2. Give two definitions of amorphous
+                materials.</a></li>
+            <li><a href="#3-give-three-definitions-of-a-lattice">3. Give three definitions of a lattice.</a></li>
+            <li><a href="#4-give-two-definitions-of-bravais-lattice">4. Give two definitions of Bravais lattice.</a>
+            </li>
+            <li><a href="#5-define-what-is-meant-by-basicbasis-cell">5. Define what is meant by basic/basis cell.</a>
+            </li>
+            <li><a href="#6-list-two-definitions-of-the-primitive-unit-cell">6. List two definitions of the primitive
+                unit cell.</a></li>
+            <li><a href="#7-draw-the-basic-vector-that-represents-the-primitive-unit-cell-in-the-following-3d-order">7.
+                Draw the basic vector that represents the primitive unit cell in the following 3D order</a></li>
+            <li><a href="#8-give-full-atomic-coordinates-of-the-cesium-chloride-cscl-structure">8. Give full atomic
+                coordinates of the Cesium Chloride (CsCl) structure.</a></li>
+            <li><a href="#9-derive-the-atomic-coordinates-of-the-hcp-structure-other-than-the-method-used-in-class">9.
+                Derive the atomic coordinates of the HCP structure other than the method used in class.</a></li>
+            <li><a href="#10-calculate-the-atomic-packing-fraction-of">10. Calculate the atomic packing fraction of</a>
+              <ul>
+                <li><a href="#hexagonal-closed-packed-structure">Hexagonal-Closed Packed structure</a></li>
+                <li><a href="#packing-fraction">Packing Fraction</a></li>
+              </ul>
+            </li>
+            <li><a
+                href="#11-given-the-basic-vector-of-body-centered-cubic-lattice-in-real-space-with-the-expression">11.
+                Given the basic vector of Body-Centered Cubic lattice in real space with the expression.</a>
+              <ul>
+                <li><a href="#i-determine-the-reciprocal-lattice-vectors">I. Determine the reciprocal lattice
+                    vectors.</a></li>
+              </ul>
+            </li>
+          </ul>
+        </li>
+        <li><a href="#therefore-vec-a2-times-vec-a3-fraca22hat-x-hat-y"><span class="math display">\[ \therefore \vec
+              a_2 \times \vec a_3 = \frac{a^2}{2}(\hat x + \hat y)\]</span> —</a></li>
+        <li><a href="#therefore-vec-a1-cdot-vec-a2-times-vec-a3-fraca32"><span class="math display">\[ \therefore \vec
+              a_1 \cdot (\vec a_2 \times \vec a_3) = \frac{a^3}{2}\]</span><br />
+            —</a></li>
+        <li><a href="#therefore-vec-a3-times-vec-a1-fraca22vec-y-vec-z"><span class="math display">\[ \therefore \vec
+              a_3 \times \vec a_1 = \frac{a^2}{2}(\vec y + \vec z)\]</span> —</a></li>
+        <li>
+          <table>
+            <thead>
+              <tr class="header">
+                <th>[<span class="math display">\[\therefore \vec a_1 \times \vec a_2 \ = \frac{a^2}{2}(\hat x + \hat
+                    y)\]</span></th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr class="odd">
+                <td>](#therefore-vec-a1-times-vec-a2-fraca22hat-x-hat-y)</td>
+              </tr>
+              <tr class="even">
+                <td>- <a href="#the-reciprocal-lattice-of-bcc-are">The reciprocal lattice of BCC are</a></td>
+              </tr>
+              <tr class="odd">
+                <td>- <a
+                    href="#ii-draw-the-diagram-of-the-body-centered-system-showing-the-appropriate-primitive-basis-vectors">II.
+                    Draw the diagram of the Body-Centered System, showing the appropriate primitive basis vectors.</a>
+                </td>
+              </tr>
+              <tr class="even">
+                <td><!--toc:end--></td>
+              </tr>
+            </tbody>
+          </table>
+        </li>
+      </ul>
+    </li>
+  </ul>
+  <h2 id="questions">Questions</h2>
+  <ol type="1">
+    <li>Give all possible definitions of Crystal that you know.</li>
+    <li>Give two definitions of amorphous materials.</li>
+    <li>Give three definitions of a lattice.</li>
+    <li>Give two definitions of Bravais lattice.</li>
+    <li>Define what is meant by basic/basis cell.</li>
+    <li>List two definitions of the primitive unit cell.</li>
+    <li>Draw the basic vector that represents the primitive unit cell in the following 3D order</li>
+  </ol>
+  <ul>
+    <li>Body-Centered Cubic (BCC)</li>
+    <li>Face-Centered Cubic (FCC)</li>
+    <li>Hexagonal-Closed Packed (HCP)</li>
+  </ul>
+  <ol start="8" type="1">
+    <li>
+      <ol start="8" type="1">
+        <li>Give full atomic coordinates of Cesium Chloride (CeCl) structure.</li>
+      </ol>
+    </li>
+    <li>Derive the atomic coordinates of the HCP structure other than the method used in class.</li>
+    <li>Calculate the atomic packing fraction of</li>
+  </ol>
+  <ul>
+    <li>Hexagonal Crystal lattice</li>
+    <li>Hexagonal-Closed Packed structure</li>
+  </ul>
+  <ol start="11" type="1">
+    <li>Given the basic vector of Body-Centered Cubic lattice in real space with the expression.<br />
+      <span class="math display">\[a1 = \frac{a}{2}x + \frac{a}{2}y - \frac{a}{2}z\]</span> <span
+        class="math display">\[a2 = -\frac{a}{2}x + \frac{a}{2}y + \frac{a}{2}z\]</span> <span class="math display">\[a3
+        = \frac{a}{2}x - \frac{a}{2}y + \frac{a}{2}z\]</span>
+    </li>
+  </ol>
+  <ul>
+    <li>Determine the reciprocal lattice vectors.</li>
+    <li>Draw the diagram of the Body-Centered System, showing the appropriate primitive basis vectors.</li>
+  </ul>
+  <h2 id="answers">Answers</h2>
+  <h3 id="give-all-possible-definitions-of-crystal-that-you-know.">1. Give all possible definitions of Crystal that you
+    know.</h3>
+  <ul>
+    <li>A crystal or crystalline solid is a solid material whose constituents (such as atoms, molecules, or ions) are
+      arranged in a highly ordered microscopic structure, forming a crystal lattice that extends in all directions.</li>
+    <li>A crystal is a solid material in which atoms, ions and molecules are arranged in regularly repeating pattern
+      that extends in all three spatial dimensions,</li>
+    <li>A crystal is any solid crystalline substance, and thus has a regular and ordered internal arrangement of atoms,
+      ions or molecules.</li>
+    <li>A crystal is a solid substance that is composed of atoms, ions, and molecules that are arranged in a regular
+      geometric pattern. In general, “crystal” is used to describe materials that have a regular repeating and
+      symmetrical atomic structure<br />
+      <em><strong>Rerfrence</strong> <a href="https://chat.openai.com/chat">Open AI Chat GPT-3</a></em>
+    </li>
+  </ul>
+  <h3 id="give-two-definitions-of-amorphous-materials.">2. Give two definitions of amorphous materials.</h3>
+  <ul>
+    <li>An amorphous material is a solid material that lacks long-range order in its atomic structure.</li>
+    <li>A solid in which the constituent particles do possess a regular three-dimensional arrangement.</li>
+    <li>An amorphous material can also be defined as a solid that has a somewhat random internal arrangement of atoms,
+      ions and molecules, which gives them a glassy appearance. Examples of amorphous solids include glass, plastics,
+      and many types of rubber.<br />
+      <em><strong>Rerfrence</strong> <a href="https://chat.openai.com/chat">Open AI Chat GPT-3</a></em>
+    </li>
+  </ul>
+  <h3 id="give-three-definitions-of-a-lattice.">3. Give three definitions of a lattice.</h3>
+  <ul>
+    <li>A lattice is a regularly repeating arrangement of points in three-dimensional space, that is usually occupied by
+      atoms, ions or molecules.</li>
+    <li>A lattice can also be defined as a three-dimensional array of points that form a regular and repeating pattern.
+      <em><strong>Rerfrence</strong> <a href="https://chat.openai.com/chat">Open AI Chat GPT-3</a></em></li>
+    <li>A set of mathematical points to which the crystal is attached.<br />
+      <em><strong>Rerfrence</strong> Solid State Physics Kittle</em>
+    </li>
+  </ul>
+  <h3 id="give-two-definitions-of-bravais-lattice.">4. Give two definitions of Bravais lattice.</h3>
+  <ul>
+    <li>A Bravais Lattice is an array of discrete points that look the same in all directions and orientations that look
+      the same in all directions.<br />
+      <em><strong>Reference</strong> <a href="https://byjus.com/chemistry/bravais-lattice/">byjus.com</a></em>
+    </li>
+    <li>A Bravais Lattice is the basic building block from which all crystals can be constructed.
+      <em><strong>Reference</strong> <a
+          href="https://chem.libretexts.org/Bookshelves/Analytical_Chemistry/Physical_Methods_in_Chemistry_and_Nano_Science_(Barron)/07%3A_Molecular_and_Solid_State_Structure/7.01%3A_Crystal_Structure">libretexts.org</a></em>
+    </li>
+  </ul>
+  <h3 id="define-what-is-meant-by-basicbasis-cell.">5. Define what is meant by basic/basis cell.</h3>
+  <p>A basic cell or basis cell is the smallest unit cell that can be used to construct the entire crystal lattice
+    without gaps or overlaps. It is a three-dimensional structure that is repeated in a crystal lattice to create the
+    overall crystal structure. The basic cell is characterized by the lengths of its sides and the angles between them,
+    and it is used to define the fundamental geometry of the crystal lattice. The arrangement of atoms within the basic
+    cell determines the overall properties of the crystal, such as its hardness, electrical conductivity, and thermal
+    conductivity.</p>
+  <h3 id="list-two-definitions-of-the-primitive-unit-cell.">6. List two definitions of the primitive unit cell.</h3>
+  <ul>
+    <li>A primitive unit cell is a basic building block of a crystal lattice. It is the smallest unit cell that can be
+      used to construct the entire crystal lattice without gaps or overlaps.</li>
+    <li>A primitive unit cell is a three-dimensional structure that is repeated in a crystal lattice to create the
+      overall crystal structure. It is the smallest unit cell that can be used to construct the entire crystal lattice
+      without gaps or overlaps, and it is characterized by the lengths of its sides and the angles between them.
+      <em><strong>Rerfrence</strong> <a href="https://chat.openai.com/chat">Open AI Chat GPT-3</a></em></li>
+  </ul>
+  <h3 id="draw-the-basic-vector-that-represents-the-primitive-unit-cell-in-the-following-3d-order">7. Draw the basic
+    vector that represents the primitive unit cell in the following 3D order</h3>
+  <ul>
+    <li>
+      <p>Body-Centered Cubic (BCC)<br />
+        <img src="./images/bcc-reciprocal-lattice.png" alt="Body-Centered Cubic lattice" />
+      </p>
+    </li>
+    <li>
+      <p>Face-Centered Cubic (FCC)<br />
+        <img src="./images/399px-Lattice_face_centered_cubic.png" alt="Face-Centered Cubic lattice" />
+      </p>
+    </li>
+    <li>
+      <p>Hexagonal-Closed Packed (HCP)<br />
+        ![Hexagonal-Closed Packed lattice(./images/Hexagonal,_close_packed_crystal_lattice.png)</p>
+    </li>
+  </ul>
+  <h3 id="give-full-atomic-coordinates-of-the-cesium-chloride-cscl-structure.">8. Give full atomic coordinates of the
+    Cesium Chloride (CsCl) structure.</h3>
+  <p>Cesium chloride (CsCl) has a Body-Centered structure. <img src="./images/cesium-chlorid.jpg"
+      alt="Sodium Chloride" /> * It has two primitive cells in a cubic unit and each unit cell has two molecule basis of
+    CsCl. * The position of the Cl ion is at (0 0 0) and the Cs ion is at (<span class="math inline">\(\frac{1}{2}
+      \frac{1}{2} \frac{1}{2}\)</span>) * The Cs are situated at the body center and the eight Cl ions are at the corner
+    of the unit cell. Similarly, if we extend the unit cell we can see a Cl ion is surrounded by 8 Cs ions. Thus the
+    coordinate number of CsCl is 8.</p>
+  <h3 id="derive-the-atomic-coordinates-of-the-hcp-structure-other-than-the-method-used-in-class.">9. Derive the atomic
+    coordinates of the HCP structure other than the method used in class.</h3>
+  <p><img src="./images/HCP_Coordination-number.png" alt="HCP Showing Coordination number" /><br />
+    From the above diagram, we can see that the Hexagonal-Closed Packed structure has a Coordination number of
+    twelve(12).</p>
+  <h3 id="calculate-the-atomic-packing-fraction-of">10. Calculate the atomic packing fraction of</h3>
+  <ul>
+    <li>Hexagonal Crystal lattice</li>
+    <li>Hexagonal-Closed Packed structure #### Hexagonal Crystal lattice Consider the diagram bellow<br />
+      <img src="./images/Hexagonal,_close_packed_crystal_lattice.png" alt="Hexagonal-Closed Packed lattice" /><br />
+      From the diagram above we notice that each atom at the edge of the hexagon is shared between six cells <img
+        src="./images/Lattice-sharing-of-atom-HCP.png" alt="HCP Diagram showing sharing of edge atoms" /><br />
+    </li>
+    <li>3 cells at the top</li>
+    <li>3 cells at the bottom<br />
+      <span class="math inline">\(-\)</span> each of the 12 edge atoms contributes a total of <span
+        class="math inline">\(\frac{1}{6}\)</span> atoms to the cell<br />
+      <span class="math display">\[\frac{1}{6} \times 12 = 2\ (for\ the\ edge\ atoms)\]</span> <span
+        class="math inline">\(-\)</span> we can also see that each of the face atoms is being shared between two
+      adjacent unit cells, thus the two face atoms (at the top and the bottom), contribute a total of <span
+        class="math inline">\(\frac{1}{2}\)</span> atoms. <span class="math display">\[\frac{1}{2} \times 2 = 1\ (for\
+        the\ face\ atoms)\]</span> <span class="math inline">\(-\)</span> we also see that the three inner atoms are not
+      shared with any other unit cell and thus contribute a full atom each to the unit cell <span
+        class="math display">\[1 \times 3 = 3\ (for\ the\ inner\ atoms)\]</span> this means the effective number of
+      atoms <span class="math inline">\(z\)</span> in HCP is <span class="math display">\[2 + 1 + 3 = 6atoms\]</span>
+    </li>
+  </ul>
+  <h4 id="packing-fraction">Packing Fraction</h4>
+  <p>the packing fraction of a Hexagonal-Closed Packed structure is given by<br />
+    <span class="math display">\[ PF = \frac{volume\ occupied\ by\ the\ atoms}{volume\ of\ the\ unit\ cell}\]</span> -
+    Solving for the volume occupied by the atoms in the cell<br />
+    the total volume <span class="math inline">\(v_a\)</span> occupied by atoms in a unit cell is given by <span
+      class="math display">\[ v_a = z \times volume\ of\ an\ atom\]</span><br />
+    where <span class="math inline">\(z\)</span> is the effective number of atoms in the cell<br />
+    and <span class="math inline">\(v_a\)</span> is the total volume occupied by atoms in a unit cell<br />
+    <span class="math display">\[ v_a = 6 \times \frac{4}{3} \pi r^3\]</span> - Solving for the volume of the unit cell
+  </p>
+  <p>the volume of the unit cell <span class="math inline">\(v_u\)</span> for HCP is given by<br />
+    <span class="math display">\[ v_u = area\ of\ the\ base \times height(C)\]</span> - calculating the area of the base
+    hexagon consider the hexagon bellow <img src="./images/hexagon-base.png"
+      alt="A hexagon divided into equilateral triangles" /><br />
+    from the above diagram, we can see that six equilateral triangles make up the hexagons, therefore the area of one
+    triangle multiplied by 6 will give us the area of the hexagon the area of a triangle is <span
+      class="math inline">\(\frac{1}{2}base \times h\)</span> <img src="./images/closed-packed-triangle.png"
+      alt="Closed packed triangle" /> from the diagram above, the distance between two touching atoms <span
+      class="math inline">\(a = 2r\)</span><br />
+    using pythagoras theorem we can solve for the height of the triangle<br />
+    <span class="math display">\[a^2 = (\frac{1}{2}a)^2 \times h^2\]</span> <span class="math display">\[h =
+      \frac{a\sqrt{3}}{4}\]</span> thus the area of the triangle <span class="math inline">\(A\)</span> is<br />
+    <span class="math display">\[ A = \frac{1}{2} \times a \times (\frac{1}{2}a)^2 \times h^2\]</span> <span
+      class="math display">\[ = \frac{\sqrt{3}a^2}{4}\]</span> multiplied by 6, the area of the hexagon <span
+      class="math inline">\(A_h\)</span> is <span class="math display">\[ A_h = \frac{3\sqrt{3}a^2}{2}\]</span> the
+    volume of HCP = <span class="math inline">\(A_h \times C\)</span> whre <span class="math inline">\(C\)</span> is the
+    height of the HCP lattice<br />
+    <span class="math display">\[C = \frac{4r\sqrt{2}}{\sqrt{3}}\]</span>
+  </p>
+  <p><span class="math display">\[\therefore PF = \frac{6 \times \frac{4}{3}\pi \times
+      (\frac{a}{3})^3}{\frac{3a^2\sqrt{3}}{2} \times C}\]</span> <span class="math display">\[the\ atomic\ packing\
+      fraction\ PF = 0.75\]</span></p>
+  <h4 id="hexagonal-closed-packed-structure">Hexagonal-Closed Packed structure</h4>
+  <p>Consider the diagram bellow<br />
+    <img src="./images/Hexagonal,_close_packed_crystal_lattice.png" alt="Hexagonal-Closed Packed lattice" /><br />
+    From the diagram above we notice that each atom at the edge of the hexagon is shared between six cells <img
+      src="./images/Lattice-sharing-of-atom-HCP.png" alt="HCP Diagram showing sharing of edge atoms" /><br />
+    * 3 cells at the top * 3 cells at the bottom<br />
+    <span class="math inline">\(-\)</span> each of the 12 edge atoms contributes a total of <span
+      class="math inline">\(\frac{1}{6}\)</span> atoms to the cell<br />
+    <span class="math display">\[\frac{1}{6} \times 12 = 2\ (for\ the\ edge\ atoms)\]</span> <span
+      class="math inline">\(-\)</span> we can also see that each of the face atoms is being shared between two adjacent
+    unit cells, thus the two face atoms (at the top and the bottom), contribute a total of <span
+      class="math inline">\(\frac{1}{2}\)</span> atoms. <span class="math display">\[\frac{1}{2} \times 2 = 1\ (for\
+      the\ face\ atoms)\]</span> <span class="math inline">\(-\)</span> we also see that the three inner atoms are not
+    shared with any other unit cell and thus contribute a full atom each to the unit cell <span class="math display">\[1
+      \times 3 = 3\ (for\ the\ inner\ atoms)\]</span> this means the effective number of atoms <span
+      class="math inline">\(z\)</span> in HCP is <span class="math display">\[2 + 1 + 3 = 6atoms\]</span>
+  </p>
+  <h4 id="packing-fraction-1">Packing Fraction</h4>
+  <p>the packing fraction of a Hexagonal-Closed Packed structure is given by<br />
+    <span class="math display">\[ PF = \frac{volume\ occupied\ by\ the\ atoms}{volume\ of\ the\ unit\ cell}\]</span> -
+    Solving for the volume occupied by the atoms in the cell<br />
+    the total volume <span class="math inline">\(v_a\)</span> occupied by atoms in a unit cell is given by <span
+      class="math display">\[ v_a = z \times volume\ of\ an\ atom\]</span><br />
+    where <span class="math inline">\(z\)</span> is the effective number of atoms in the cell<br />
+    and <span class="math inline">\(v_a\)</span> is the total volume occupied by atoms in a unit cell<br />
+    <span class="math display">\[ v_a = 6 \times \frac{4}{3} \pi r^3\]</span> - Solving for the volume of the unit cell
+  </p>
+  <p>the volume of the unit cell <span class="math inline">\(v_u\)</span> for HCP is given by<br />
+    <span class="math display">\[ v_u = area\ of\ the\ base \times height(C)\]</span> - calculating the area of the base
+    hexagon consider the hexagon bellow <img src="./images/hexagon-base.png"
+      alt="A hexagon divided into equilateral triangles" /><br />
+    from the above diagram, we can see that six equilateral triangles make up the hexagons, therefore the area of one
+    triangle multiplied by 6 will give us the area of the hexagon the area of a triangle is <span
+      class="math inline">\(\frac{1}{2}base \times h\)</span> <img src="./images/closed-packed-triangle.png"
+      alt="Closed packed triangle" /> from the diagram above, the distance between two touching atoms <span
+      class="math inline">\(a = 2r\)</span><br />
+    using pythagoras theorem we can solve for the height of the triangle<br />
+    <span class="math display">\[a^2 = (\frac{1}{2}a)^2 \times h^2\]</span> <span class="math display">\[h =
+      \frac{a\sqrt{3}}{4}\]</span> thus the area of the triangle <span class="math inline">\(A\)</span> is<br />
+    <span class="math display">\[ A = \frac{1}{2} \times a \times (\frac{1}{2}a)^2 \times h^2\]</span> <span
+      class="math display">\[ = \frac{\sqrt{3}a^2}{4}\]</span> multiplied by 6, the area of the hexagon <span
+      class="math inline">\(A_h\)</span> is <span class="math display">\[ A_h = \frac{3\sqrt{3}a^2}{2}\]</span> the
+    volume of HCP = <span class="math inline">\(A_h \times C\)</span> whre <span class="math inline">\(C\)</span> is the
+    height of the HCP lattice<br />
+    <span class="math display">\[C = \frac{4r\sqrt{2}}{\sqrt{3}}\]</span>
+  </p>
+  <p><span class="math display">\[\therefore PF = \frac{6 \times \frac{4}{3}\pi \times
+      (\frac{a}{3})^3}{\frac{3a^2\sqrt{3}}{2} \times C}\]</span> <span class="math display">\[the\ atomic\ packing\
+      fraction\ PF = 0.75\]</span> <span class="math display">\[the\ atomic\ packing\ percentage\ = 75\%\]</span></p>
+  <h3 id="given-the-basic-vector-of-body-centered-cubic-lattice-in-real-space-with-the-expression.">11. Given the basic
+    vector of Body-Centered Cubic lattice in real space with the expression.</h3>
+  <p><span class="math display">\[a1 = \frac{a}{2}x + \frac{a}{2}y - \frac{a}{2}z\]</span> <span
+      class="math display">\[a2 = -\frac{a}{2}x + \frac{a}{2}y + \frac{a}{2}z\]</span> <span class="math display">\[a3 =
+      \frac{a}{2}x - \frac{a}{2}y + \frac{a}{2}z\]</span></p>
+  <h4 id="i.-determine-the-reciprocal-lattice-vectors.">I. Determine the reciprocal lattice vectors.</h4>
+  <p><img src="./images/bcc-reciprocal-lattice.png" alt="BCC reciprocal lattice" /><br />
+    The Reciprocal lattice of BCC are given by: <span class="math display">\[
+      \vec a_1 = \frac{2\pi(\vec a_2 \times \vec a_3)}{\vec a_1 \cdot (\vec a_2 \times \vec a_3)}
+      \ \ \vec a_2 = \frac{2\pi(\vec a_3 \times \vec a_1)}{\vec a_1 \cdot (\vec a_2 \times \vec a_3)}
+      \ \ \vec a_3 = \frac{2\pi(\vec a_1 \times \vec a_2)}{\vec a_1 \cdot (\vec a_2 \times \vec a_3)}
+      \]</span> <span class="math display">\[ \vec a_2 \times \vec a_3 = \frac{a}{2}(-\hat x -\hat y + \hat z) \times
+      \frac{a}{2}(\hat x - \hat y + \hat z)\]</span> <span class="math display">\[ = \frac{a^2}{4}\begin{bmatrix}
+      \hat x &amp; \hat y &amp; \hat z \\
+      -1 &amp; 1 &amp; 1 \\
+      1 &amp; -1 &amp; 1
+      \end{bmatrix} \
+      = \frac{a^2}{4}\cdot \hat x\begin{bmatrix}1 &amp; 1\\ -1 &amp; 1 \end{bmatrix}
+      -\hat y\begin{bmatrix} -1 &amp; 1 \\ 1 &amp; 1 \end{bmatrix}
+      +\hat x\begin{bmatrix} -1 &amp; 1 \\ 1 &amp; 1 \end{bmatrix}
+      \]</span> <span class="math display">\[ \vec a_2 \times \vec a_3 = \frac{a^3}{4}\cdot \hat x(1 + 1) -\hat y(-1 -1)
+      + \hat z(1 - 1)\]</span> <span class="math display">\[ = \frac{a^2}{4}\cdot 2\hat x + 2\hat y\ \ \ =
+      \frac{a^2}{x}\cdot 2(\hat x + \hat y) \ \ \ =\frac{a^2}{2}(\hat x + \hat y)\]</span></p>
+  <table>
+    <tbody>
+      <tr class="odd">
+        <td><span class="math display">\[ \therefore \vec a_2 \times \vec a_3 = \frac{a^2}{2}(\hat x + \hat y)\]</span>
+        </td>
+      </tr>
+    </tbody>
+  </table>
+  <p><span class="math display">\[ \vec a_1 \cdot (\vec a_2 \times a_3) = \frac{a}{2}(\hat x + \hat y - \hat z) \cdot
+      \frac{a^2}{2}(\hat x + \hat y)\]</span> <span class="math display">\[ = \frac{a^3}{4}(\hat x \cdot \hat x + \hat y
+      \cdot \hat y) \ \ \ = \frac{a^3}{4}(1 + 1) \ \ \ = \frac{a^3}{4}(2) \ \ \ = \frac{a^3}{2}\]</span></p>
+  <table>
+    <tbody>
+      <tr class="odd">
+        <td><span class="math display">\[ \therefore \vec a_1 \cdot (\vec a_2 \times \vec a_3) = \frac{a^3}{2}\]</span>
+        </td>
+      </tr>
+    </tbody>
+  </table>
+  <p><span class="math display">\[ \vec a_3 \times \vec a_1 = \frac{a}{2}(\hat x - \hat y + \hat z) \times
+      \frac{a}{2}(\hat x + \hat y - \hat z)\]</span> <span class="math display">\[ = \frac{a^2}{4}(\hat x - \hat y +
+      \hat z) \times (\hat x + \hat y - \hat z)\]</span> <span class="math display">\[ = \frac{a^2}{4}
+      \begin{bmatrix}
+      \hat x &amp; \hat y &amp; \hat z \\
+      1 &amp; -1 &amp; 1 \\
+      1 &amp; 1 &amp; -1
+      \end{bmatrix}
+      \ \ = \frac{a^2}{4} \cdot \begin{bmatrix}
+      \vec x \begin{bmatrix} -1 &amp; 1 \\ 1 &amp; -1 \end{bmatrix}
+      -\vec y \begin{bmatrix} 1 &amp; 1 \\ 1 &amp; -1 \end{bmatrix}
+      +\vec z \begin{bmatrix} 1 &amp; -1 \\ 1 &amp; 1 \end{bmatrix}
+      \end{bmatrix}
+      \]</span> <span class="math display">\[
+      \vec a_3 \times \vec a_1 = \frac{a^2}{4} \cdot \begin{bmatrix} \hat x(1 -1) -\hat y(-1-1) + \hat z(1 + 1)
+      \end{bmatrix}
+      \]</span> <span class="math display">\[ = \frac{a^2}{4} \cdot \begin{bmatrix} \hat x(0) -\hat y(-2) + \hat z(2)
+      \end{bmatrix}\]</span> <span class="math display">\[
+      = \frac{a^2}{4} \cdot 2\hat y + 2\hat z
+      \ \ = \frac{a^3}{4} \cdot 2(\hat y + \hat z)
+      \ \ = \frac{a^3}{2}(\hat y + \hat z)
+      \]</span></p>
+  <table>
+    <tbody>
+      <tr class="odd">
+        <td><span class="math display">\[ \therefore \vec a_3 \times \vec a_1 = \frac{a^2}{2}(\vec y + \vec z)\]</span>
+        </td>
+      </tr>
+    </tbody>
+  </table>
+  <p><span class="math display">\[ \vec a_1 \times \vec a_2 = \frac{a}{2}(\hat x + \hat y + \hat z) \times
+      \frac{a}{2}(-\hat x + \hat y + \hat z)\]</span> <span class="math display">\[ = \frac{a^2}{4}(\hat x + \hat y
+      -\hat z) \times (-\hat x + \hat y + \hat z)\]</span> <span class="math display">\[
+      = \frac{a^2}{4}
+      \begin{bmatrix}
+      \hat x &amp; \hat y &amp; \hat z \\
+      1 &amp; 1 &amp; -1 \\
+      -1 &amp; 1 &amp; 1
+      \end{bmatrix}
+      \ \ \ = \frac{a^2}{4}
+      \cdot \begin{bmatrix}
+      \hat x\begin{bmatrix} 1 &amp; -1 \\ 1 &amp; 1 \end{bmatrix}
+      -\hat y \begin{bmatrix} 1 &amp; -1 \\ -1 &amp; 1 \end{bmatrix}
+      +\hat z \begin{bmatrix} 1 &amp; 1 \\ -1 &amp; 1 \end{bmatrix}
+      \end{bmatrix}
+      \]</span> <span class="math display">\[
+      \vec a_1 \times \vec a_2 = \frac{a^2}{4}
+      \cdot \begin{bmatrix}
+      \hat x(1 + 1) -\hat y(1 - 1) + \hat z(1 + 1)
+      \end{bmatrix}
+      \]</span> <span class="math display">\[
+      = \frac{a^2}{4}\begin{bmatrix} 2\vec x + 2\vec z \end{bmatrix}
+      \ \ = \frac{a^2}{4}\cdot 2(\hat x + \hat z)
+      \ \ = \frac{a^2}{2}\cdot (\hat x + \hat z)
+      \]</span></p>
+  <table>
+    <tbody>
+      <tr class="odd">
+        <td><span class="math display">\[\therefore \vec a_1 \times \vec a_2 \ = \frac{a^2}{2}(\hat x + \hat y)\]</span>
+        </td>
+      </tr>
+    </tbody>
+  </table>
+  <h4 id="the-reciprocal-lattice-of-bcc-are">The reciprocal lattice of BCC are</h4>
+  <p><span class="math display">\[\vec a_1 = \frac{2\pi(\vec a_2 \times \vec a_3)}{a_1\cdot (\vec a_2 \times \vec a_3)}
+      \ \ \ = \frac{2\pi\cdot \frac{a^2}{2}(\hat x + \hat y)}{\frac{a^3}{2}}
+      \ \ \ = \frac{\pi a^3(\hat x + \hat y)}{\frac{a^3}{2}}
+      \ \ \ = \frac{2\pi}{a}(\hat x + \hat y)
+      \]</span> <span class="math display">\[\vec a_2 = \frac{2\pi(\vec a_3 \times \vec a_1)}{a_1\cdot (\vec a_2 \times
+      \vec a_3)}
+      \ \ \ = \frac{2\pi\cdot \frac{a^2}{2}(\hat y + \hat z)}{\frac{a^3}{2}}
+      \ \ \ = \frac{\pi a^3(\hat y + \hat z)}{\frac{a^3}{2}}
+      \ \ \ = \frac{2\pi}{a}(\hat y + \hat z)
+      \]</span> <span class="math display">\[\vec a_2 = \frac{2\pi(\vec a_1 \times \vec a_2)}{a_1\cdot (\vec a_2 \times
+      \vec a_3)}
+      \ \ \ = \frac{2\pi\cdot \frac{a^2}{2}(\hat x + \hat z)}{\frac{a^3}{2}}
+      \ \ \ = \frac{\pi a^3(\hat x + \hat z)}{\frac{a^3}{2}}
+      \ \ \ = \frac{2\pi}{a}(\hat x + \hat z)
+      \]</span></p>
+  <h4 id="ii.-draw-the-diagram-of-the-body-centered-system-showing-the-appropriate-primitive-basis-vectors.">II. Draw
+    the diagram of the Body-Centered System, showing the appropriate primitive basis vectors.</h4>
+  <figure>
+    <img src="./images/bcc-reciprocal-lattice.png" alt="BCC Lattice" />
+    <figcaption aria-hidden="true">BCC Lattice</figcaption>
+  </figure>
+  <pre><code> BCC System showing appropriate primitive basis vectors.</code></pre>
+  <p>Source <a
+      href="https://www.researchgate.net/figure/The-body-centred-cubic-BCC-reciprocal-lattice-of-a-FCC-lattice-shown-in-Fig-13_fig2_264872465">Research
+      Gate</a></p>
 </body>
+
 </html>

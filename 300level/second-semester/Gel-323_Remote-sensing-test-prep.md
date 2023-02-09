@@ -210,10 +210,12 @@ man made satellites are those launched into space.
   rotation of the Earth east to west, the can cover the whole Earth.
 
 ### Resolution
-* The **spatial resolution** of an image refers to the size of the smallest possible feature that can be detected, and
-  determines the amount of detail that can be seen in an image.
-* For example, from the international space station, a building on land might be detected as a single dot, so the size of
-  the building can be the spatial resolution, since anything smaller than the building will be to small to detect.
+#### Spatial resolution
+The **spatial resolution** of an image refers to the size of the smallest possible feature that can be detected, and
+determines the amount of detail that can be seen in an image. 
+For example, from the international space station, a building on land might be detected as a single dot, so the size of
+the building can be the spatial resolution, since anything smaller than the building will be to small to detect.
+
 * The spatial resolution is also dependent on the Instantaneous Field Of View (IFOV).
 
 > **IFOV** refers to the angular cone visibility of a sensor, and can be defined as the area of the Earth's surface
@@ -225,10 +227,34 @@ man made satellites are those launched into space.
 * Images where only large feature are visible are said to be **coarse or low resolution**. The smaller the objects that
   can be detected on an image, the higher the resolution.
 * However, the higher the resolution, the less total ground area can be seen.
-* The ratio of the distance on an image or map to actual ground distance is called **scale**.
+
+#### Scale
+The ratio of the distance on an image or map to actual ground distance is called **scale**.
 * A scale of 1:100,000 means that an object of 1cm width on the map will actually be 100,000cm (1km) wide on the ground.
 * Maps or images with small "map-to-ground-rations" are reffered to as small sacale images/maps (e.g. 1:100,000), while
   those with larger ratios are called large scale images/maps (e.g. 1:5,000).
+
+#### Spectral resolution
+**Spectral resolution** refers to the ability of a sensor to detect fine wavelength intervals.
+In simple terms, it refers to how finely a sensor can detect colors (except colors only apply to wavelengths in the
+vissible light region, so you should probably use "fine wavelength intervals" instead).
+
+* For example, black and white film record wavelengths extending to all or nearly all of the visible portion of the
+  electromagnetic spectrum, so the have a **coarse or low spectal resolution** because the various wavelengths of the
+  visible region cannot be individually distinguished from the images (i.e. no colors).
+* **Multi-spectral sensors** can record energy over a variety of spectal wavelength ranges, and at several spectral
+  resolutions.
+* Even more advanced than the multi-spectral sensors are the **hyperspectral** sensors which can detect hundreds of
+  very narrow spectral bands throughout the visible, near-infrared and mid-infrared portions of the spectrum.
+* High spectral resolution can help us to detect fine differences between objects on an image basses on their spectral
+  response in each narrow band (color).
+
+#### Radiometric resolution
+Radiometric resolution reffers to the magnitude of electromagnetic radiation that a sensor is sensitive to. This translates
+to the ability of the sensor to discrimiate very slight differences in energy.
+* Low radimetric sensors will tend to average out areas on a image, and are not very accurate as to what is represented on
+  the image.
+
 
 
 ## Questions

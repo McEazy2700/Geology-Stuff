@@ -2,8 +2,11 @@
 
 <!--toc:start-->
 - [Remote Sensing](#remote-sensing)
+  - [Course Outline](#course-outline)
+  - [Introduction](#introduction)
   - [Elements of remote sensing](#elements-of-remote-sensing)
     - [Electromagnetic Radiation](#electromagnetic-radiation)
+      - [Electromagnetic spectrum](#electromagnetic-spectrum)
     - [Interactions in the Atmosphere](#interactions-in-the-atmosphere)
       - [Scattering: Particles and large molecules in the atmosphere interact with EMR redirecting it from its original path](#scattering-particles-and-large-molecules-in-the-atmosphere-interact-with-emr-redirecting-it-from-its-original-path)
         - [Rayleigh Scattering:](#rayleigh-scattering)
@@ -15,6 +18,21 @@
       - [3 Broad Categories of Remote Sensing Platforms](#3-broad-categories-of-remote-sensing-platforms)
 <!--toc:end-->
 
+## Course Outline
+* Introduction to remote sensing.
+* Electromagnetic Radiation and Spectrum.
+* Remote sensing basic concepts.
+  * Platform
+  * Sensor
+  * Satellite
+  * Resolution (spatial, spectral, radimetric and temporal)
+  * Multispectral scanning and thermal imaging
+* Satellite data reception and transmission
+* Basic image processing and interpretation techniques.
+* Geological application of remote sensing techniques and data.
+* Overview of non-geological applications of remote sensing data and techniques.
+
+## Introduction
 Remote sensing is a general name referring to all methods of collecting data about an object (in this case the earth)
 without making physical contact with that object (i.e. at some distance from the object of study), using some kind of
 recording device.  
